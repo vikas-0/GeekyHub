@@ -4,7 +4,7 @@ title = "GeekyHub - Think Technology"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "shortname"
+disqusShortname = "geekyhub"
 googleAnalytics = ""
 
 [taxonomies]
