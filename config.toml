@@ -46,7 +46,7 @@ category = "categories"
 [params.intro]
     header    = "GeekyHub"
 
-    paragraph = "A place to have thoughts and tips on daily technical life."
+    paragraph = ""
 
     about     = ""
 
