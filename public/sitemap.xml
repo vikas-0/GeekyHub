@@ -3,73 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.org/post/starting-a-new-blog/</loc>
+    <loc>https://www.geekyhub.in/post/starting-a-new-blog/</loc>
     <lastmod>2017-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/migrate-from-jekyll/</loc>
+    <loc>https://www.geekyhub.in/post/migrate-from-jekyll/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/go-is-for-lovers/</loc>
+    <loc>https://www.geekyhub.in/post/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/hugo-is-for-lovers/</loc>
+    <loc>https://www.geekyhub.in/post/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/creating-a-new-theme/</loc>
+    <loc>https://www.geekyhub.in/post/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/tags/blogging/</loc>
+    <loc>https://www.geekyhub.in/tags/blogging/</loc>
     <lastmod>2017-01-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://www.geekyhub.in/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/hugo/</loc>
+    <loc>https://www.geekyhub.in/tags/hugo/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/jekyll/</loc>
+    <loc>https://www.geekyhub.in/tags/jekyll/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://www.geekyhub.in/</loc>
     <lastmod>2017-01-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/migration/</loc>
+    <loc>https://www.geekyhub.in/tags/migration/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/post/</loc>
+    <loc>https://www.geekyhub.in/post/</loc>
     <lastmod>2017-01-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://www.geekyhub.in/tags/</loc>
     <lastmod>2017-01-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
