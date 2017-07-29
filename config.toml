@@ -14,12 +14,12 @@ theme = "hugo-minimalist-theme"
 
 [params]
     site_author = "Vikas Kumar"
-    site_description = "The awesome blog of John Doe."
+    site_description = "The awesome blog of Vikas Kumar."
     location = "Somwhere in India"
     # Link custom assets relative to /static
     avatar = "img/profile-image.png"
     header_background = "img/desk.jpg"
-    header_title = "Customizable header title"
+    header_title = "GeekyHub"
     copyright = "Powered by [Hugo](http://gohugo.io)."
     custom_css = []
     custom_js  = []
@@ -31,11 +31,11 @@ theme = "hugo-minimalist-theme"
     # Add your social network accounts to the profile section on the left
     # by entering your username. The links to your account will be
     # create automatically.
-    twitter   = "spf13"
-    facebook  = ""
+    twitter   = "vikas_kr"
+    facebook  = "wittvikki"
     linkedin  = ""
     behance   = ""
     dribbble  = ""
     instagram = ""
-    github    = "digitalcraftsman"
+    github    = "vikas-0"
     gplus     = ""
