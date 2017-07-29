@@ -1,6 +1,6 @@
 baseurl = "https://www.geekyhub.in/"
 languageCode = "en-us"
-title = "Vikas Kumar's blog"
+title = "GeekyHub"
 # Define how many pages appear per site
 paginate = 10
 # Enable comments powered by Disqus by entering your disqus shortname
