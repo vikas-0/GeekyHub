@@ -1,9 +1,15 @@
 const gulp = require('gulp')
 const htmlmin = require('gulp-htmlmin')
-const shell= require('gulp-shell')
+const exec = require('child_process').exec
 const runSequnce = require('run-sequence')
 
-gulp.task('hugo-build', shell.task['hugo'])
+gulp.task('hugo-build', (cb)=>{
+    exec('hugo',(err,stdout,stderr)=>{
+        console.log(stdout)
+        console.log(stderr)
+        cb(err)
+    })
+})
 
 gulp.task('minify-html', ()=>{
     return gulp.src('public/**/*.html')
