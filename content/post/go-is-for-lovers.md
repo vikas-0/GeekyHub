@@ -4,6 +4,7 @@ tags = []
 title = "Go is for lovers"
 description = "o templates provide an extreence of this simplicity is that go templates parse very quickly."
 ogimage = "test.jpg"
+draft=true
 +++
 
 

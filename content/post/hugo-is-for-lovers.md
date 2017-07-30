@@ -2,6 +2,7 @@
 date = "2015-08-03T13:39:46+02:00"
 tags = ["Hugo"]
 title = "Hugo is for lovers"
+draft=true
 +++
 
 ## Step 1. Install Hugo
