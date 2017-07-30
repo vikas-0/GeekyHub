@@ -2,7 +2,7 @@
 title = "Migrate from Jekyll"
 date = "2015-10-10T13:07:31+02:00"
 tags = ["jekyll", "migration", "hugo"]
-draft=true
+draft=false
 +++
 
 ## Move static content to `static`
@@ -30,7 +30,8 @@ Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters
 
 <!----more---->
     class Hello(){
-      
+      a!=b
+      a->b
     }
 
 ## Set your configuration publish folder to `_site`

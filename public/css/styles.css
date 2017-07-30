@@ -181,7 +181,13 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-code,
+code{
+  font: 1em "Fira Code"; 
+  font-feature-settings: "calt" 1;  /* Enable ligatures for IE 10+, Edge */
+  text-rendering: optimizeLegibility; /* Force ligatures for Webkit, Blink, Gecko */
+  /* word-break: break-all;  */
+  font-weight: 400;
+}
 kbd,
 pre,
 samp {
