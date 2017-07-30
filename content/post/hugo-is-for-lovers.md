@@ -14,7 +14,7 @@ Save it somewhere specific as we will be using it in the next step.
 
 More complete instructions are available at [installing hugo](/overview/installing/)
 
-<!--more-->
+
 
 ## Step 2. Build the Docs
 
@@ -29,7 +29,7 @@ Follow the following steps:
  4. Open your browser to http://localhost:1313
 
 Corresponding pseudo commands:
-
+<!--more-->
     git clone https://github.com/spf13/hugo
     cd hugo
     /path/to/where/you/installed/hugo server --source=./docs

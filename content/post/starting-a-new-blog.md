@@ -9,6 +9,8 @@ I had my last paper of this semester's exams just a day before yesterday. If I c
 
 In course of examination, I stumbled upon my lost forgotten blog on [Blogger] (http://geekyhub.blogspot.in)  . It didn't take much time to realize that the blog is very embarrassing, done like a 10 to 5 job. A personal touch cannot be found on that blog. So, I decided to do a fresh start after examinations and this new blog is my another effort.
 
+<!--more-->
+
 ## What should I focus
 
 I will try to maintain personal content mostly related to my technical experience as the linchpin of this blog, not just a "how to" guide. 
