@@ -2,6 +2,7 @@ const gulp = require('gulp')
 const htmlmin = require('gulp-htmlmin')
 const exec = require('child_process').exec
 const runSequnce = require('run-sequence')
+const bundleAssets = require('gulp-bundle-assets')
 
 gulp.task('hugo-build', (cb)=>{
     exec('hugo',(err,stdout,stderr)=>{

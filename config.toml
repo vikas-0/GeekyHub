@@ -1,16 +1,23 @@
 baseurl = "https://www.geekyhub.in/"
+
 languageCode = "en-us"
+
 title = "GeekyHub"
+
 # Define how many pages appear per site
 paginate = 10
+
 # Enable comments powered by Disqus by entering your disqus shortname
 disqusShortname = "geekyhub"
+
 # Enable gogle analytics by entering your tracking code
+
 googleAnalytics = ""
+
 theme = "hugo-minimalist-theme"
-# Remove this line if you use this theme for a real website.
-# It allows you to preview the theme within the exampleSite folder
-# with the hugo server command
+
+
+
 
 [params]
     site_author = "Vikas Kumar"
