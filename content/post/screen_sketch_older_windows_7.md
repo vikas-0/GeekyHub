@@ -21,7 +21,7 @@ When I use thier PC, only option to achieve the screen sketch is to take screens
 
 only basic difference in workflow is that in Epic Pen, you first draw on screen then take screenshot while in Widows Ink workspace, you first take screenshot then draw on it.
 
-Epic Pen is free for personal and can be downloaded from offical website.
+Epic Pen is free for personal use and can be downloaded from offical website.
 
 
 
