@@ -13,7 +13,7 @@ This post is intended to college Freshmans those who have little or no experienc
 Linux is basically a term to refer all the distributions (or say OS) based on Linux Kernel collectively. some of its notable distributions are Ubuntu, Fedora, Arch, your favorite Kali Linux.
 
 ## Where may you have heard about Kali Linux?
-I bet it is your friend or someone elder who said to you that Kali Linux can hack computers.
+I bet it is your friend or someone elder who said to you that Kali Linux can hack computers. I have seen students being obsessed with this distro without knowing anything about Linux.
 
 {{< figure src="/images/kalimeme.jpg" title="Easiest way to become a Hacker" >}}
 
