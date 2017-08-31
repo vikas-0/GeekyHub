@@ -2,7 +2,7 @@
 date = "2017-01-21"
 title = "Setting up my new blog"
 tags = ["Blogging"]
-
+draft=true
 +++
 
 I had my last paper of this semester's exams just a day before yesterday. If I can speak my mind, this semester has been very boring. Most of the subjects were a just compilation of the subjects I have read in previous semesters which made me lukewarm about studies. I am just hopeful that I'll get pass marks in all subject. 
