@@ -20,7 +20,7 @@ I bet it is your friend or someone elder who said to you that Kali Linux can hac
 Now hack is a stupid term. Most of the people think that it something by which you can access information without proper permission.  No, my friend, the term is much broader.
 
 The **hack** is defined as "a tip, trick, or efficient method for doing or managing something" or in the Indian language, we say *Jugaad*.
-
+<!--more-->
 ## Now, What is Kali Linux?
 It is clearly written on their website that Kali Linux is Linux distribution aimed at advanced Penetration Testing and Security Auditing. Basically. it is a Linux Distro + set of tools.
 
