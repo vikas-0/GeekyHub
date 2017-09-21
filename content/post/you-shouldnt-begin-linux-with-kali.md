@@ -7,7 +7,7 @@ description = "Kali Linux is Not a Magical wand to make you a hacker, neither a 
 draft=false
 +++
 
-This post is intended to college Freshmans those who have little or no experience with Linux. If you are an experienced Linux user you may skip the post safely.
+This post is intended for college Freshmans those who have little or no experience with Linux. If you are an experienced Linux user you may skip the post safely.
 
 ## What is Linux?
 Linux is basically a term to refer all the distributions (or say OS) based on Linux Kernel collectively. some of its notable distributions are Ubuntu, Fedora, Arch, your favorite Kali Linux.
