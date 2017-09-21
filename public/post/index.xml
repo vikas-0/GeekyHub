@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Wed, 02 Aug 2017 23:13:25 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 01 Sep 2017 04:23:00 +0530</lastBuildDate>
     
 	<atom:link href="https://www.geekyhub.in/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dear CS Freshman, Kali Linux is not what you are thinking</title>
+      <link>https://www.geekyhub.in/post/you-shouldnt-begin-linux-with-kali/</link>
+      <pubDate>Fri, 01 Sep 2017 04:23:00 +0530</pubDate>
+      
+      <guid>https://www.geekyhub.in/post/you-shouldnt-begin-linux-with-kali/</guid>
+      <description>&lt;p&gt;This post is intended to college Freshmans those who have little or no experience with Linux. If you are an experienced Linux user you may skip the post safely.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-linux&#34;&gt;What is Linux?&lt;/h2&gt;
+
+&lt;p&gt;Linux is basically a term to refer all the distributions (or say OS) based on Linux Kernel collectively. some of its notable distributions are Ubuntu, Fedora, Arch, your favorite Kali Linux.&lt;/p&gt;
+
+&lt;h2 id=&#34;where-may-you-have-heard-about-kali-linux&#34;&gt;Where may you have heard about Kali Linux?&lt;/h2&gt;
+
+&lt;p&gt;I bet it is your friend or someone elder who said to you that Kali Linux can hack computers. I have seen students being obsessed with this distro without knowing anything about Linux.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://www.geekyhub.in/images/kalimeme.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Easiest way to become a Hacker&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Now hack is a stupid term. Most of the people think that it something by which you can access information without proper permission.  No, my friend, the term is much broader.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;hack&lt;/strong&gt; is defined as &amp;ldquo;a tip, trick, or efficient method for doing or managing something&amp;rdquo; or in the Indian language, we say &lt;em&gt;Jugaad&lt;/em&gt;.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Epic Pen is great Windows Ink workspace alternative for Windows 7</title>
@@ -24,19 +60,6 @@
 
 &lt;p&gt;When I use thier PC, only option to achieve the screen sketch is to take screenshot in paint and draw on it using pain. This method is not bad but also doesn&amp;rsquo;t goes smoothly with my work flow. Mainly because it involes too much clicks
 &lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Setting up my new blog</title>
-      <link>https://www.geekyhub.in/post/starting-a-new-blog/</link>
-      <pubDate>Sat, 21 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.geekyhub.in/post/starting-a-new-blog/</guid>
-      <description>&lt;p&gt;I had my last paper of this semester&amp;rsquo;s exams just a day before yesterday. If I can speak my mind, this semester has been very boring. Most of the subjects were a just compilation of the subjects I have read in previous semesters which made me lukewarm about studies. I am just hopeful that I&amp;rsquo;ll get pass marks in all subject.&lt;/p&gt;
-
-&lt;p&gt;In course of examination, I stumbled upon my lost forgotten blog on &lt;a href=&#34;http://geekyhub.blogspot.in&#34;&gt;Blogger&lt;/a&gt;  . It didn&amp;rsquo;t take much time to realize that the blog is very embarrassing, done like a 10 to 5 job. A personal touch cannot be found on that blog. So, I decided to do a fresh start after examinations and this new blog is my another effort.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

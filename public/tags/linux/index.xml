@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GeekyHub</title>
-    <link>https://www.geekyhub.in/</link>
-    <description>Recent content on GeekyHub</description>
+    <title>Linux on GeekyHub</title>
+    <link>https://www.geekyhub.in/tags/linux/</link>
+    <description>Recent content in Linux on GeekyHub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Fri, 01 Sep 2017 04:23:00 +0530</lastBuildDate>
     
-	<atom:link href="https://www.geekyhub.in/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.geekyhub.in/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -45,20 +45,6 @@
 &lt;p&gt;Now hack is a stupid term. Most of the people think that it something by which you can access information without proper permission.  No, my friend, the term is much broader.&lt;/p&gt;
 
 &lt;p&gt;The &lt;strong&gt;hack&lt;/strong&gt; is defined as &amp;ldquo;a tip, trick, or efficient method for doing or managing something&amp;rdquo; or in the Indian language, we say &lt;em&gt;Jugaad&lt;/em&gt;.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Epic Pen is great Windows Ink workspace alternative for Windows 7</title>
-      <link>https://www.geekyhub.in/post/screen_sketch_older_windows_7/</link>
-      <pubDate>Wed, 02 Aug 2017 23:13:25 +0530</pubDate>
-      
-      <guid>https://www.geekyhub.in/post/screen_sketch_older_windows_7/</guid>
-      <description>&lt;p&gt;Windows Ink workspace is great addition to Windows 10. Due to this tool, annotating has never been easier.&lt;/p&gt;
-
-&lt;p&gt;However, Windows 7 is still rock solid in the marked. Apart from corporate users many personal users are on Windows 7 which include my relatives.&lt;/p&gt;
-
-&lt;p&gt;When I use thier PC, only option to achieve the screen sketch is to take screenshot in paint and draw on it using pain. This method is not bad but also doesn&amp;rsquo;t goes smoothly with my work flow. Mainly because it involes too much clicks
 &lt;/p&gt;</description>
     </item>
     
