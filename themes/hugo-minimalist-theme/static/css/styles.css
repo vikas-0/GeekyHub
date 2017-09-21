@@ -797,3 +797,24 @@ body.post-template .site-header h2 .logo {
 
 .clearfix:after {
   clear: both; }
+
+@media print{
+  aside{
+    display: none;
+  }
+  .share-buttons{
+    display: none;
+  }
+  .btn.home{
+    display: none;
+  }
+  .content {
+    width: 100%;
+    margin: 0; 
+  }
+  
+  a[href^="http"]::after{
+    content: "(" attr(href) ")";
+  }
+  
+}
