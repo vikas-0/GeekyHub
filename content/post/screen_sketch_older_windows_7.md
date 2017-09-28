@@ -1,7 +1,7 @@
 +++
 title= "Epic Pen is great Windows Ink workspace alternative for Windows 7"
 date= 2017-08-02T23:13:25+05:30
-tags = ["Windows"]
+tags = ["Windows", "Softwares"]
 ogimage = "images/windows_ink_windows_7_xp.png"
 description = "How to do screen sketch on Windows 7 and 8 such as Windows Ink workspace in Windows 10"
 draft=false

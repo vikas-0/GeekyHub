@@ -812,6 +812,10 @@ body.post-template .site-header h2 .logo {
     width: 100%;
     margin: 0; 
   }
+  .post, .comments{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   
   a[href^="http"]::after{
     content: "(" attr(href) ")";
