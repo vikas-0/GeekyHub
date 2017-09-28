@@ -45,7 +45,7 @@ Download shortcut cheatsheet for
 [Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) and 
 [Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf).
 
- # 5. Change Case of variables
+# 5. Change Case of variables
 
 Just select a variable (you can select multiple variables too), open Command Palette by pressing F1, Type change case and choose the case you want.
 {{< figure src="/images/vscodechangecase.gif" title="Changing variable case in VSCode" >}}
