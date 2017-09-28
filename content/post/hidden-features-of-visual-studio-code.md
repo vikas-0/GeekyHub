@@ -2,6 +2,8 @@
 title: "Some 'cool' things Visual Studio Code can do you may haven't known"
 date: 2017-09-28T16:35:16+05:30
 draft: false
+ogimage : "images/vscodecover.png"
+description : "VSCode has established as a good text editor. Now let's check out some of it's cool features"
 tags: ["Code Editor", "Softwares"]
 ---
 Mircosoft's [Visual Studio Code](https://code.visualstudio.com/) has proven to be the dark horse of code editors. Don't confuse yourself by seeing Microsoft as it is completely free, open source and MIT licensed.
