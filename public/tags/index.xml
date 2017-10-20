@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Fri, 01 Sep 2017 04:23:00 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 28 Sep 2017 16:35:16 +0530</lastBuildDate>
     
 	<atom:link href="https://www.geekyhub.in/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Code Editor</title>
+      <link>https://www.geekyhub.in/tags/code-editor/</link>
+      <pubDate>Thu, 28 Sep 2017 16:35:16 +0530</pubDate>
+      
+      <guid>https://www.geekyhub.in/tags/code-editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diy</title>
+      <link>https://www.geekyhub.in/tags/diy/</link>
+      <pubDate>Fri, 20 Oct 2017 17:51:16 +0530</pubDate>
+      
+      <guid>https://www.geekyhub.in/tags/diy/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Kali</title>
@@ -27,6 +45,24 @@
       <pubDate>Fri, 01 Sep 2017 04:23:00 +0530</pubDate>
       
       <guid>https://www.geekyhub.in/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://www.geekyhub.in/tags/python/</link>
+      <pubDate>Fri, 20 Oct 2017 17:51:16 +0530</pubDate>
+      
+      <guid>https://www.geekyhub.in/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Softwares</title>
+      <link>https://www.geekyhub.in/tags/softwares/</link>
+      <pubDate>Thu, 28 Sep 2017 16:35:16 +0530</pubDate>
+      
+      <guid>https://www.geekyhub.in/tags/softwares/</guid>
       <description></description>
     </item>
     

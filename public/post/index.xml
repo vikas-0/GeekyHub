@@ -7,10 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Fri, 01 Sep 2017 04:23:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 20 Oct 2017 17:51:16 +0530</lastBuildDate>
     
 	<atom:link href="https://www.geekyhub.in/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Build a Simple WhatsApp bot in Python using Selenium</title>
+      <link>https://www.geekyhub.in/post/making-a-whatsapp-bot-using-python-selenium/</link>
+      <pubDate>Fri, 20 Oct 2017 17:51:16 +0530</pubDate>
+      
+      <guid>https://www.geekyhub.in/post/making-a-whatsapp-bot-using-python-selenium/</guid>
+      <description>Selenium is a web automation package available for all popular languages. To know more about selenium you can refer to official Selenium docs. Here, we will be making a simple WhatsApp bot using Python and Selenium which will reply the current time for every message.
+Installing Selenium So, first of all, we need to install Selenium for Python by running following command in terminal.
+ pip install selenium  Selenium also requires a driver to interface with the chosen browser.</description>
+    </item>
+    
+    <item>
+      <title>Some &#39;cool&#39; things Visual Studio Code can do you may haven&#39;t known</title>
+      <link>https://www.geekyhub.in/post/hidden-features-of-visual-studio-code/</link>
+      <pubDate>Thu, 28 Sep 2017 16:35:16 +0530</pubDate>
+      
+      <guid>https://www.geekyhub.in/post/hidden-features-of-visual-studio-code/</guid>
+      <description>Mircosoft&amp;rsquo;s Visual Studio Code has proven to be the dark horse of code editors. Don&amp;rsquo;t confuse yourself by seeing Microsoft as it is completely free, open source and MIT licensed.
+Even being late to the party, it has attracted enough users. The reason behind this is a perfect balance between speed, features, and hackability.
+If you are new to this editor, these are some features you should be known to improve your productivity.</description>
+    </item>
     
     <item>
       <title>Dear CS Freshman, Kali Linux is not what you are thinking</title>
@@ -18,7 +40,7 @@
       <pubDate>Fri, 01 Sep 2017 04:23:00 +0530</pubDate>
       
       <guid>https://www.geekyhub.in/post/you-shouldnt-begin-linux-with-kali/</guid>
-      <description>&lt;p&gt;This post is intended to college Freshmans those who have little or no experience with Linux. If you are an experienced Linux user you may skip the post safely.&lt;/p&gt;
+      <description>&lt;p&gt;This post is intended for college Freshmans those who have little or no experience with Linux. If you are an experienced Linux user you may skip the post safely.&lt;/p&gt;
 
 &lt;h2 id=&#34;what-is-linux&#34;&gt;What is Linux?&lt;/h2&gt;
 

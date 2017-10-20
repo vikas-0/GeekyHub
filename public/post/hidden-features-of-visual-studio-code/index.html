@@ -1,0 +1,263 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Some &#39;cool&#39; things Visual Studio Code can do you may haven&#39;t known - GeekyHub</title>
+        <meta name="author">
+        <meta name="description" content="VSCode has established as a good text editor. Now let&#39;s check out some of it&#39;s cool features">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Some &#39;cool&#39; things Visual Studio Code can do you may haven&#39;t known - GeekyHub" />
+        <meta property="og:url" content="https://www.geekyhub.in/post/hidden-features-of-visual-studio-code/" />
+        <meta property="og:image" content="https://www.geekyhub.in/images/vscodecover.png" />
+        <meta property="og:description" content="VSCode has established as a good text editor. Now let&#39;s check out some of it&#39;s cool features">
+        <meta name="generator" content="Hugo 0.30" />
+        <link href="https://www.geekyhub.in/post/index.xml" rel="alternate" type="application/rss+xml" title="GeekyHub" />
+        <link href="https://www.geekyhub.in/post/index.xml" rel="feed" type="application/rss+xml" title="GeekyHub" />
+        <link href='//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://www.geekyhub.in/css/firacode.css">
+        <link rel="stylesheet" href="https://www.geekyhub.in/css/styles.css">
+        <link rel="icon" href="https://www.geekyhub.in/favicon.ico">
+        <link rel="apple-touch-icon" href="https://www.geekyhub.in/apple-touch-icon.png" />
+        <link rel="stylesheet" href="https://www.geekyhub.in/css/highlightjs/monokai.css">
+        <script src="https://www.geekyhub.in/js/vendor/modernizr-2.8.0.min.js"></script>
+        
+        <style>
+        .site-header h2 .logo {
+        background: url(https://www.geekyhub.in/img/desk.jpg) no-repeat 0 0;
+        }
+        @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+          .site-header h2 .logo {
+            background-image: url(https://www.geekyhub.in/img/desk.jpg);
+        }}
+       .site-header {
+         background: #2a373d url(https://www.geekyhub.in/img/desk.jpg) no-repeat center center;
+         z-index: -1;
+        }
+        </style>
+    </head>
+    <body>
+        
+        <header class="site-header">
+          <div class="transparent-layer">
+              <h2>GeekyHub</h2>
+          </div>
+        </header>
+
+
+<div class="container clearfix">
+    <main role="main" class="content">
+        <article class="post">
+            <a class="btn home" href="https://www.geekyhub.in/" title="Back to home">&laquo; Back to home</a>
+            
+<h1><a href="https://www.geekyhub.in/post/hidden-features-of-visual-studio-code/" title="Some &#39;cool&#39; things Visual Studio Code can do you may haven&#39;t known">Some &#39;cool&#39; things Visual Studio Code can do you may haven&#39;t known</a></h1>
+
+<footer class="post-info">2 minutes read · Posted on <span class="post-meta"><time datetime="28.09.2017 04:35PM">28.09.2017 04:35PM</time>
+
+    &middot; Tagged in
+        
+        <a href="https://www.geekyhub.in/tags/code-editor">code editor</a>, 
+        
+        <a href="https://www.geekyhub.in/tags/softwares">softwares</a>
+        
+    
+
+</span>
+</footer>
+
+            
+
+<p>Mircosoft&rsquo;s <a href="https://code.visualstudio.com/">Visual Studio Code</a> has proven to be the dark horse of code editors. Don&rsquo;t confuse yourself by seeing Microsoft as it is completely free, open source and MIT licensed.</p>
+
+<p>Even being late to the party, it has attracted enough users. The reason behind this is a perfect balance between speed, features, and hackability.</p>
+
+<!-- more -->
+
+<p>If you are new to this editor, these are some features you should be known to improve your productivity.</p>
+
+<h1 id="1-code-differs">1. Code Differs</h1>
+
+<p>The files in your project look same but there are some differences. You spotted few of them just by gazing but there is still a chance of missing something. So why risk, just type the following command in your terminal and bam! VS Code will spot all the differences for you</p>
+
+<pre><code>$code &lt;first-file&gt; &lt;second-file&gt;
+</code></pre>
+
+
+<figure >
+    
+        <img src="/images/vscodediffer.png" />
+    
+    
+    <figcaption>
+        <h4>VSCode Differ</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h1 id="2-font-legatures">2. Font Legatures</h1>
+
+<p>In typography, a ligature occurs where two or more letters are joined as a single glyph such as æ formed after joining a and e. In programming there are many token which are combination of two or more characters.
+An example would be &lt; and = . <a href="https://github.com/tonsky/FiraCode">FiraCode</a> is programming ligature which will show &lt;= and many other token as single character. And FiraCode is easily installable in VSCode which isn&rsquo;t even supported by famous Sublime Text.</p>
+
+
+<figure >
+    
+        <img src="/images/firacode.jpg" />
+    
+    
+    <figcaption>
+        <h4>Left: Without Firacode, Right: With Firacode</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h1 id="3-type-checking-in-javascript">3. Type Checking in Javascript</h1>
+
+<p>Typescript is typed superset of javascript. But in VSCode you can do all that in plain javascript by adding</p>
+
+<pre><code>    //@ts-check
+</code></pre>
+
+<p>at top of the javascript file</p>
+
+
+<figure >
+    
+        <img src="/images/ts-check-in-javascript.gif" />
+    
+    
+    <figcaption>
+        <h4>Demo for property and type checking</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h1 id="4-the-printable-shortcut-cheatsheet">4. The Printable shortcut Cheatsheet</h1>
+
+<p>A code editor is never good without good shortcut keys. VSCode offers a printable cheatsheet which you can paste on wall for quick learning. It contains shortcuts for important features like multiple cursors, integrated terminals, file management etc. Go explore it.</p>
+
+<p>Download shortcut cheatsheet for
+<a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a>,
+<a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> and
+<a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">Mac</a>.</p>
+
+<h1 id="5-change-case-of-variables">5. Change Case of variables</h1>
+
+<p>Just select a variable (you can select multiple variables too), open Command Palette by pressing F1, Type change case and choose the case you want.
+
+<figure >
+    
+        <img src="/images/vscodechangecase.gif" />
+    
+    
+    <figcaption>
+        <h4>Changing variable case in VSCode</h4>
+        
+    </figcaption>
+    
+</figure>
+</p>
+
+            <ul class="share-buttons">
+    <li>Share this article:</li>
+    <li>
+        <a class="icon-facebook-squared" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.geekyhub.in%2fpost%2fhidden-features-of-visual-studio-code%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook"></a>
+    </li>
+    <li>
+        <a class="icon-twitter" href="https://twitter.com/share?text=Some%20%27cool%27%20things%20Visual%20Studio%20Code%20can%20do%20you%20may%20haven%27t%20known&amp;url=https%3a%2f%2fwww.geekyhub.in%2fpost%2fhidden-features-of-visual-studio-code%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Tweet this article"></a>
+    </li>
+    <li>
+        <a class="icon-gplus" href="https://plus.google.com/share?url=https%3a%2f%2fwww.geekyhub.in%2fpost%2fhidden-features-of-visual-studio-code%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google&#43;"></a>
+    </li>
+    <li>
+        <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.geekyhub.in%2fpost%2fhidden-features-of-visual-studio-code%2f&title=Some%20%27cool%27%20things%20Visual%20Studio%20Code%20can%20do%20you%20may%20haven%27t%20known" onclick="window.open(this.href, 'linkedin-share', 'width=600,height=494');return false;" title="Share on Linkedin"></a>
+    </li>
+</ul>
+
+        </article>
+        <div class="comments">
+            <h3>Comments</h3>
+            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "geekyhub" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+    </main>
+    <aside class="author">
+  <img class="profile-image" src="https://www.geekyhub.in/img/profile-image.png" alt="Vikas Kumar" />
+  <p class="name">by 
+  <strong>Vikas Kumar</strong></p>
+  <p class="address">Somwhere in India</p>
+  <p class="link"></p>
+  <ul class="social">
+    
+<li><a href="//twitter.com/vikas_kr" class="icon-twitter" target="_blank" title="Twitter"></a></li>
+
+
+
+<li><a href="//facebook.com/wittvikki" class="icon-facebook-squared" target="_blank" title="Facebook"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//github.com/vikas-0" class="icon-github" target="_blank" title="Github"></a></li>
+
+
+
+
+<li><a href="https://www.geekyhub.in/post/index.xml" class="icon-rss" target="_blank" title="RSS"></a></li>
+
+  </ul>
+  <br><br>
+</aside>
+
+</div>
+
+<footer class="main-footer">
+  <div class="container clearfix">
+        <a class="icon-rss" href="https://www.geekyhub.in/post/index.xml" title="RSS"></a>
+        <p>&copy; 2017 &middot; Powered by <a href="http://gohugo.io">Hugo</a>.</p>
+  </div>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>window.jQuery || document.write('<script src="https:\/\/www.geekyhub.in\/js\/vendor\/jquery-1.11.0.min.js"><\/script>')</script>
+<script src="https://www.geekyhub.in/js/plugins.js"></script>
+
+
+
+
+</body>
+</html>
+

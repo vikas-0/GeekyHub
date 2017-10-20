@@ -10,7 +10,7 @@ Mircosoft's [Visual Studio Code](https://code.visualstudio.com/) has proven to b
 
 Even being late to the party, it has attracted enough users. The reason behind this is a perfect balance between speed, features, and hackability.
 
-<!-- more -->
+<!--more-->
 If you are new to this editor, these are some features you should be known to improve your productivity.
 
 # 1. Code Differs

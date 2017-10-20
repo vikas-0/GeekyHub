@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://www.geekyhub.in/post/making-a-whatsapp-bot-using-python-selenium/</loc>
+    <lastmod>2017-10-20T17:51:16+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.geekyhub.in/post/hidden-features-of-visual-studio-code/</loc>
+    <lastmod>2017-09-28T16:35:16+05:30</lastmod>
+  </url>
   
   <url>
     <loc>https://www.geekyhub.in/post/you-shouldnt-begin-linux-with-kali/</loc>
@@ -18,8 +27,20 @@
   </url>
   
   <url>
+    <loc>https://www.geekyhub.in/tags/code-editor/</loc>
+    <lastmod>2017-09-28T16:35:16+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.geekyhub.in/tags/diy/</loc>
+    <lastmod>2017-10-20T17:51:16+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.geekyhub.in/</loc>
-    <lastmod>2017-09-01T04:23:00+05:30</lastmod>
+    <lastmod>2017-10-20T17:51:16+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -37,13 +58,25 @@
   
   <url>
     <loc>https://www.geekyhub.in/post/</loc>
-    <lastmod>2017-09-01T04:23:00+05:30</lastmod>
+    <lastmod>2017-10-20T17:51:16+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.geekyhub.in/tags/python/</loc>
+    <lastmod>2017-10-20T17:51:16+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.geekyhub.in/tags/softwares/</loc>
+    <lastmod>2017-09-28T16:35:16+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.geekyhub.in/tags/</loc>
-    <lastmod>2017-09-01T04:23:00+05:30</lastmod>
+    <lastmod>2017-09-28T16:35:16+05:30</lastmod>
     <priority>0</priority>
   </url>
   

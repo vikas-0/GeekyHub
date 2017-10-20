@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Editor on GeekyHub</title>
+    <link>https://www.geekyhub.in/tags/code-editor/</link>
+    <description>Recent content in Code Editor on GeekyHub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <lastBuildDate>Thu, 28 Sep 2017 16:35:16 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.geekyhub.in/tags/code-editor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Some &#39;cool&#39; things Visual Studio Code can do you may haven&#39;t known</title>
+      <link>https://www.geekyhub.in/post/hidden-features-of-visual-studio-code/</link>
+      <pubDate>Thu, 28 Sep 2017 16:35:16 +0530</pubDate>
+      
+      <guid>https://www.geekyhub.in/post/hidden-features-of-visual-studio-code/</guid>
+      <description>Mircosoft&amp;rsquo;s Visual Studio Code has proven to be the dark horse of code editors. Don&amp;rsquo;t confuse yourself by seeing Microsoft as it is completely free, open source and MIT licensed.
+Even being late to the party, it has attracted enough users. The reason behind this is a perfect balance between speed, features, and hackability.
+If you are new to this editor, these are some features you should be known to improve your productivity.</description>
+    </item>
+    
+  </channel>
+</rss>
