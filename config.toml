@@ -38,8 +38,8 @@ theme = "hugo-minimalist-theme"
     # Add your social network accounts to the profile section on the left
     # by entering your username. The links to your account will be
     # create automatically.
-    twitter   = "vikas_kr"
-    facebook  = "wittvikki"
+    twitter   = ""
+    facebook  = ""
     linkedin  = ""
     behance   = ""
     dribbble  = ""
