@@ -12,7 +12,7 @@ disqusShortname = "geekyhub"
 
 # Enable gogle analytics by entering your tracking code
 
-googleAnalytics = ""
+googleAnalytics = "UA-103636475-1"
 
 theme = "hugo-minimalist-theme"
 
