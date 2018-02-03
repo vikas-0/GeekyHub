@@ -5,7 +5,7 @@ draft: false
 description : "TLDR, just use xclip -selection c"
 tags: ["linux", "Softwares"]
 ---
-Since first mainstream launch of Wayland with Gnome, people are facing problem in using xclip. Mainly because xclip is supposed to work with X11 Clipboard.
+Since mainstream launch of Wayland with Gnome, people are facing problem in using xclip. Mainly because xclip is supposed to work with X11 Clipboard.
 
 But fortunately there is an option in xclip to overcome this propblem. 
 Just use *xclip -selection c* instead of *xclip*. This option will just emulate the *ctrl + shift + c* action.
