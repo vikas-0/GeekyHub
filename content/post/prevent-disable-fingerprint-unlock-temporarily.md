@@ -1,5 +1,5 @@
 +++
-title= "Prevent roommates/family members from unlocking your android phone with your fingerprint when you are asleep"
+title= "Prevent roommates/family members from unlocking your android phone with your fingerprint while you are asleep"
 date= 2018-06-13T01:25:00+05:30
 draft= false
 ogimage = "images/fingerprintunlock.jpg"
