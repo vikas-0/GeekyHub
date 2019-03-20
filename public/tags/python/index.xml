@@ -6,7 +6,6 @@
     <description>Recent content in Python on GeekyHub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Fri, 20 Oct 2017 17:51:16 +0530</lastBuildDate>
     
 	<atom:link href="https://www.geekyhub.in/tags/python/index.xml" rel="self" type="application/rss+xml" />
@@ -18,9 +17,29 @@
       <pubDate>Fri, 20 Oct 2017 17:51:16 +0530</pubDate>
       
       <guid>https://www.geekyhub.in/post/making-a-whatsapp-bot-using-python-selenium/</guid>
-      <description>Selenium is a web automation package available for all popular languages. To know more about selenium you can refer to official Selenium docs. Here, we will be making a simple WhatsApp bot using Python and Selenium which will reply the current time for every message.
-Installing Selenium So, first of all, we need to install Selenium for Python by running following command in terminal.
- pip install selenium  Selenium also requires a driver to interface with the chosen browser.</description>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;https://www.geekyhub.in/images/robots-764951_640.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Selenium is a web automation package available for all popular languages. To know more about selenium you can refer to &lt;a href=&#34;http://docs.seleniumhq.org/&#34;&gt;official Selenium docs&lt;/a&gt;.
+Here, we will be making a simple WhatsApp bot using Python and Selenium which will reply the current time for every message.&lt;/p&gt;
+
+&lt;h2 id=&#34;installing-selenium&#34;&gt;Installing Selenium&lt;/h2&gt;
+
+&lt;p&gt;So, first of all, we need to install Selenium for Python by running following command in terminal.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install selenium 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Selenium also requires a driver to interface with the chosen browser. For Firefox, we need to install geckodriver. Without proper driver, you will get &lt;em&gt;WebDriverException&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Download latest geckodriver from &lt;a href=&#34;https://github.com/mozilla/geckodriver/releases&#34;&gt;Mozilla&amp;rsquo;s GitHub Repo&lt;/a&gt; and add to the path.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

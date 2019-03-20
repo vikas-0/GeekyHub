@@ -2,6 +2,16 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103636475-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-103636475-1');
+        </script>
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Build a Simple WhatsApp bot in Python using Selenium - GeekyHub</title>
         <meta name="author">
@@ -9,9 +19,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:title" content="Build a Simple WhatsApp bot in Python using Selenium - GeekyHub" />
         <meta property="og:url" content="https://www.geekyhub.in/post/making-a-whatsapp-bot-using-python-selenium/" />
-        <meta property="og:image" content="https://www.geekyhub.in/images/vscodecover.png" />
+        <meta property="og:image" content="https://www.geekyhub.in/images/robots-764951_640.png" />
         <meta property="og:description" content="DIY Article for building a simple WhatsApp bot using Python and Selenium">
-        <meta name="generator" content="Hugo 0.30" />
+        <meta name="generator" content="Hugo 0.40.1" />
         <link href="https://www.geekyhub.in/post/index.xml" rel="alternate" type="application/rss+xml" title="GeekyHub" />
         <link href="https://www.geekyhub.in/post/index.xml" rel="feed" type="application/rss+xml" title="GeekyHub" />
         <link href='//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -52,7 +62,7 @@
             
 <h1><a href="https://www.geekyhub.in/post/making-a-whatsapp-bot-using-python-selenium/" title="Build a Simple WhatsApp bot in Python using Selenium">Build a Simple WhatsApp bot in Python using Selenium</a></h1>
 
-<footer class="post-info">1 minutes read · Posted on <span class="post-meta"><time datetime="20.10.2017 05:51PM">20.10.2017 05:51PM</time>
+<footer class="post-info">0 minutes read · Posted on <span class="post-meta"><time datetime="20.10.2017 05:51PM">20.10.2017 05:51PM</time>
 
     &middot; Tagged in
         
@@ -65,38 +75,87 @@
 </span>
 </footer>
 
-            
-
-<p>Selenium is a web automation package available for all popular languages. To know more about selenium you can refer to official Selenium docs.
-Here, we will be making a simple WhatsApp bot using Python and Selenium which will reply the current time for every message.</p>
-
-<h1 id="installing-selenium">Installing Selenium</h1>
-
-<p>So, first of all, we need to install Selenium for Python by running following command in terminal.</p>
-
-<pre><code>    pip install selenium 
-</code></pre>
-
-<p>Selenium also requires a driver to interface with the chosen browser. For Firefox, we need to install geckodriver. Without proper driver, you will get WebDriverException.</p>
-
-
-<figure >
+            <figure>
     
-        <img src="/images/Strip-IA-construite-de-IF-english650-final.jpg" />
+        <img src="/images/robots-764951_640.png" />
     
-    
-    <figcaption>
-        <h4>Left: Without Firacode, Right: With Firacode</h4>
-        
-    </figcaption>
     
 </figure>
 
 
+<p>Selenium is a web automation package available for all popular languages. To know more about selenium you can refer to <a href="http://docs.seleniumhq.org/">official Selenium docs</a>.
+Here, we will be making a simple WhatsApp bot using Python and Selenium which will reply the current time for every message.</p>
+
+<h2 id="installing-selenium">Installing Selenium</h2>
+
+<p>So, first of all, we need to install Selenium for Python by running following command in terminal.</p>
+
+<pre><code class="language-bash">pip install selenium 
+</code></pre>
+
+<p>Selenium also requires a driver to interface with the chosen browser. For Firefox, we need to install geckodriver. Without proper driver, you will get <em>WebDriverException</em>.</p>
+
 <p>Download latest geckodriver from <a href="https://github.com/mozilla/geckodriver/releases">Mozilla&rsquo;s GitHub Repo</a> and add to the path.</p>
 
-<!-- more -->
+<p></p>
 
+<h2 id="start-coding">Start Coding</h2>
+
+<p>Now we are ready to proceed.
+Make a new Python file i.e. <em>bot.py</em> and make some necessary imports.</p>
+
+<pre><code class="language-python">from datetime import datetime
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import NoSuchElementException
+</code></pre>
+
+<p>Now we will create and initialize Firefox WebDriver and make a get request to open Whatsapp Web URL.</p>
+
+<pre><code class="language-python">driver = webdriver.Firefox()
+driver.get('http://web.whatsapp.com')
+print('Please Scan the QR Code and press enter')
+input()
+</code></pre>
+
+<p>The <em>print</em> and <em>input</em> functions are there just to give us time to scan the QR code to connect our phone&rsquo;s WhatsApp. Once we are connected we can hit enter to continue further execution of code.</p>
+
+<p>Once the WhatsApp Web interface is open, we need to look for unread messages. Thankfully, all unread messages in left pane are individual HTML element with CSS class &lsquo;chat unread&rsquo;.</p>
+
+<p>WebDriver have a function to find elements by CSS selector which will return the first element with the given argument. We will make use of this function.</p>
+
+<pre><code class="language-python">content = driver.find_element_by_css_selector('.chat.unread')
+content.click()
+input_form = driver.find_element_by_css_selector('.pluggable-input-placeholder')
+input_form.send_keys(str(datetime.now()),Keys.RETURN)
+</code></pre>
+
+<p>Above code snippet is very simple. We are selecting first element with class <em>chat</em> and <em>unread</em> and clicking it. Then we need to find message box which is an HTML element with class <em>pluggable-input-placeholder</em>. _send<em>keys</em> function will send the keyboard event to the element. So we send the current time and RETURN key(Enter Key) to send the message.</p>
+
+<p>As I have already mentioned that function _find_element_by_css<em>selector</em> will return only first element for given argument, So we need to put the whole snippet in a loop. Also, when there is no such element for the argument it will throw <em>NoSuchElementException</em>, so enclosing with <em>try</em> <em>except</em> is also necessary.</p>
+
+<p>The final code will be</p>
+
+<pre><code class="language-python">from datetime import datetime
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import NoSuchElementException
+
+driver = webdriver.Firefox()
+driver.get('http://web.whatsapp.com')
+print('Please Scan the QR Code and press enter')
+input()
+while True:
+    try:
+        content = driver.find_element_by_css_selector('.chat.unread')
+        content.click()
+        input_form = driver.find_element_by_css_selector('.pluggable-input-placeholder')
+        input_form.send_keys(str(datetime.now()),Keys.RETURN)
+    except NoSuchElementException:
+        pass
+</code></pre>
+
+<p>This code is just a proof of concept, you can obviously improve it for better performance.</p>
             <ul class="share-buttons">
     <li>Share this article:</li>
     <li>
@@ -146,11 +205,7 @@ Here, we will be making a simple WhatsApp bot using Python and Selenium which wi
   <p class="link"></p>
   <ul class="social">
     
-<li><a href="//twitter.com/vikas_kr" class="icon-twitter" target="_blank" title="Twitter"></a></li>
 
-
-
-<li><a href="//facebook.com/wittvikki" class="icon-facebook-squared" target="_blank" title="Facebook"></a></li>
 
 
 
@@ -178,7 +233,7 @@ Here, we will be making a simple WhatsApp bot using Python and Selenium which wi
 <footer class="main-footer">
   <div class="container clearfix">
         <a class="icon-rss" href="https://www.geekyhub.in/post/index.xml" title="RSS"></a>
-        <p>&copy; 2017 &middot; Powered by <a href="http://gohugo.io">Hugo</a>.</p>
+        <p>&copy; 2019 &middot; Powered by <a href="http://gohugo.io">Hugo</a>.</p>
   </div>
 </footer>
 
@@ -187,7 +242,6 @@ Here, we will be making a simple WhatsApp bot using Python and Selenium which wi
 <script>hljs.initHighlightingOnLoad();</script>
 <script>window.jQuery || document.write('<script src="https:\/\/www.geekyhub.in\/js\/vendor\/jquery-1.11.0.min.js"><\/script>')</script>
 <script src="https://www.geekyhub.in/js/plugins.js"></script>
-
 
 
 

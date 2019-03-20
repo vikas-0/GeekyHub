@@ -6,11 +6,21 @@
     <description>Recent content in Softwares on GeekyHub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Thu, 28 Sep 2017 16:35:16 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 03 Feb 2018 02:34:16 +0530</lastBuildDate>
     
 	<atom:link href="https://www.geekyhub.in/tags/softwares/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to use &#39;xclip in Gnome Wayland&#39;</title>
+      <link>https://www.geekyhub.in/post/use-xclip-in-gnome-wayland/</link>
+      <pubDate>Sat, 03 Feb 2018 02:34:16 +0530</pubDate>
+      
+      <guid>https://www.geekyhub.in/post/use-xclip-in-gnome-wayland/</guid>
+      <description>Since mainstream launch of Wayland with Gnome, people are facing problem in using xclip. Mainly because xclip is supposed to work with X11 Clipboard.
+But fortunately there is an option in xclip to overcome this propblem. Just use xclip -selection c instead of xclip. This option will just emulate the ctrl + shift + c action.
+For easier use you can setup the alias by adding following line in .bashrc or .</description>
+    </item>
     
     <item>
       <title>Some &#39;cool&#39; things Visual Studio Code can do you may haven&#39;t known</title>
@@ -18,9 +28,9 @@
       <pubDate>Thu, 28 Sep 2017 16:35:16 +0530</pubDate>
       
       <guid>https://www.geekyhub.in/post/hidden-features-of-visual-studio-code/</guid>
-      <description>Mircosoft&amp;rsquo;s Visual Studio Code has proven to be the dark horse of code editors. Don&amp;rsquo;t confuse yourself by seeing Microsoft as it is completely free, open source and MIT licensed.
-Even being late to the party, it has attracted enough users. The reason behind this is a perfect balance between speed, features, and hackability.
-If you are new to this editor, these are some features you should be known to improve your productivity.</description>
+      <description>&lt;p&gt;Mircosoft&amp;rsquo;s &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt; has proven to be the dark horse of code editors. Don&amp;rsquo;t confuse yourself by seeing Microsoft as it is completely free, open source and MIT licensed.&lt;/p&gt;
+
+&lt;p&gt;Even being late to the party, it has attracted enough users. The reason behind this is a perfect balance between speed, features, and hackability.&lt;/p&gt;</description>
     </item>
     
     <item>

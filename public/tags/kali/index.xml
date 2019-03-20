@@ -6,7 +6,6 @@
     <description>Recent content in Kali on GeekyHub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Fri, 01 Sep 2017 04:23:00 +0530</lastBuildDate>
     
 	<atom:link href="https://www.geekyhub.in/tags/kali/index.xml" rel="self" type="application/rss+xml" />
@@ -29,7 +28,7 @@
 &lt;p&gt;I bet it is your friend or someone elder who said to you that Kali Linux can hack computers. I have seen students being obsessed with this distro without knowing anything about Linux.&lt;/p&gt;
 
 
-&lt;figure &gt;
+&lt;figure&gt;
     
         &lt;img src=&#34;https://www.geekyhub.in/images/kalimeme.jpg&#34; /&gt;
     

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on GeekyHub</title>
+    <link>https://www.geekyhub.in/tags/tips/</link>
+    <description>Recent content in Tips on GeekyHub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Jun 2018 01:25:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.geekyhub.in/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prevent roommates/family members from unlocking your android phone with your fingerprint while you are asleep</title>
+      <link>https://www.geekyhub.in/post/prevent-disable-fingerprint-unlock-temporarily/</link>
+      <pubDate>Wed, 13 Jun 2018 01:25:00 +0530</pubDate>
+      
+      <guid>https://www.geekyhub.in/post/prevent-disable-fingerprint-unlock-temporarily/</guid>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;https://www.geekyhub.in/images/fingerprintunlock.jpg&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Today fingerprint scanners are on almost every phone. It is very handy to have a fingerprint sensor to unlock your device. By the time you pull out a phone from your pocket to your eyes it is already unlocked. It also prevents snooping of your password or pattern from behind your shoulders or through a security camera.&lt;/p&gt;
+
+&lt;p&gt;But one place where it fails to hide your sensitive chats and photos from your sneaky roommates or a nosy family member. They can easily use your finger to unlock your phone while you are asleep or too high.&lt;/p&gt;
+
+&lt;h2 id=&#34;so-how-to-prevent-this&#34;&gt;So how to prevent this?&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -13,14 +13,14 @@
         </script>
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Windows - GeekyHub</title>
+        <title>Windows subsystem for Linux is of any use? - GeekyHub</title>
         <meta name="author">
-        <meta name="description" content="">
+        <meta name="description" content="Problems With Windows Subsystem for Linux">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:title" content="Windows - GeekyHub" />
-        <meta property="og:url" content="https://www.geekyhub.in/tags/windows/" />
-        <meta property="og:image" content="https://www.geekyhub.in/img/desk.jpg" />
-        <meta property="og:description" content="">
+        <meta property="og:title" content="Windows subsystem for Linux is of any use? - GeekyHub" />
+        <meta property="og:url" content="https://www.geekyhub.in/post/problems-with-windows-subsystem-for-linux/" />
+        <meta property="og:image" content="https://www.geekyhub.in/images/dual.jpg" />
+        <meta property="og:description" content="Problems With Windows Subsystem for Linux">
         <meta name="generator" content="Hugo 0.40.1" />
         <link href="https://www.geekyhub.in/post/index.xml" rel="alternate" type="application/rss+xml" title="GeekyHub" />
         <link href="https://www.geekyhub.in/post/index.xml" rel="feed" type="application/rss+xml" title="GeekyHub" />
@@ -54,13 +54,12 @@
           </div>
         </header>
 
+
 <div class="container clearfix">
     <main role="main" class="content">
-        <a class="btn home" href="https://www.geekyhub.in/" title="Back to home">&laquo; Back to home</a>
-        
-        
-            <article class="post">
-    
+        <article class="post">
+            <a class="btn home" href="https://www.geekyhub.in/" title="Back to home">&laquo; Back to home</a>
+            
 <h1><a href="https://www.geekyhub.in/post/problems-with-windows-subsystem-for-linux/" title="Windows subsystem for Linux is of any use?">Windows subsystem for Linux is of any use?</a></h1>
 
 <footer class="post-info">0 minutes read · Posted on <span class="post-meta"><time datetime="21.03.2019 02:25AM">21.03.2019 02:25AM</time>
@@ -78,12 +77,13 @@
 </span>
 </footer>
 
-    <p><figure>
+            <figure>
     
         <img src="/images/dual.jpg" />
     
     
 </figure>
+
 
 <p>I was a long term user of Arch Linux. But recently I decided to switch to  Windows. Why? Because I needed to do some media editing and I heard about WSL which promises a more comfortable life for developers on Windows.</p>
 
@@ -92,50 +92,65 @@
 <p>So I installed a new SSD and started my Windows 10 installation process. Installation went smooth. Then I opened PowerShell to activate the feature and downloaded Ubuntu from the Windows Store.
  Finally, I launched bash and installed <em>git</em>, <em>nodejs</em>, <em>npm</em>, <em>yarn</em>, <em>python</em>, <em>pip</em>. I was excited to try it all out on Microsoft own Visual Studio Code as it is the only editor which officially supports WSL.
 </p>
-&hellip;</p>
-    <a href="https://www.geekyhub.in/post/problems-with-windows-subsystem-for-linux/" title="Windows subsystem for Linux is of any use?">Read more &raquo;</a>
-</article>
 
-        
-            <article class="post">
+<h2 id="git">GIT</h2>
+
+<p>My first bummer was GIT. VSCode refused to detect git installation on Ubuntu. I googled many workarounds and none of those worked. So now I have the dual setup of GIT, one Windows version and one Ubuntu version.</p>
+
+<h2 id="nodejs">NodeJS</h2>
+
+<p>Next step was node development. VSCode&rsquo;s intellisense worked for NodeJs, but this feature doesn&rsquo;t require a node setup in this editor. I tried debugging which also worked flawlessly as I just had to as a parameter in the launch.json file to use WSL. The real problem started when I decided to use ESlint plugin. The editor couldn&rsquo;t find the files. The only working solution was to directly access the Linux file system which is strongly advised in WSL documentation to avoid. So now I have a dual setup of NodeJS.</p>
+
+<h2 id="python">Python</h2>
+
+<p>Python had no perks of the JavaScript. Even for intellisense, I had to go for native installation.</p>
+
+<h2 id="ssh">SSH</h2>
+
+<p>Finally, I gave up on VScode integration and thought it would be useful for SSHing to my EC2 instances because everybody know how painful to do that in Windows through Putty. But file permissions on Windows didn&rsquo;t let me do even this. Console presented me a message <em>&rdquo; WARNING: UNPROTECTED PRIVATE KEY FILE!&rdquo;</em>. Then I got to know that I can&rsquo;t set file permissions too as it uses Windows file system. Now I have a separate Putty configuration to connect to EC2.</p>
+
+<p>So my conclusion is that Microsoft&rsquo;s claim that the development environment which feels like home is a failure. What is your opinion?</p>
+            <ul class="share-buttons">
+    <li>Share this article:</li>
+    <li>
+        <a class="icon-facebook-squared" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.geekyhub.in%2fpost%2fproblems-with-windows-subsystem-for-linux%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook"></a>
+    </li>
+    <li>
+        <a class="icon-twitter" href="https://twitter.com/share?text=Windows%20subsystem%20for%20Linux%20is%20of%20any%20use%3f&amp;url=https%3a%2f%2fwww.geekyhub.in%2fpost%2fproblems-with-windows-subsystem-for-linux%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Tweet this article"></a>
+    </li>
+    <li>
+        <a class="icon-gplus" href="https://plus.google.com/share?url=https%3a%2f%2fwww.geekyhub.in%2fpost%2fproblems-with-windows-subsystem-for-linux%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google&#43;"></a>
+    </li>
+    <li>
+        <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.geekyhub.in%2fpost%2fproblems-with-windows-subsystem-for-linux%2f&title=Windows%20subsystem%20for%20Linux%20is%20of%20any%20use%3f" onclick="window.open(this.href, 'linkedin-share', 'width=600,height=494');return false;" title="Share on Linkedin"></a>
+    </li>
+</ul>
+
+        </article>
+        <div class="comments">
+            <h3>Comments</h3>
+            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
     
-<h1><a href="https://www.geekyhub.in/post/screen_sketch_older_windows_7/" title="Epic Pen is great Windows Ink workspace alternative for Windows 7">Epic Pen is great Windows Ink workspace alternative for Windows 7</a></h1>
-
-<footer class="post-info">0 minutes read · Posted on <span class="post-meta"><time datetime="02.08.2017 11:13PM">02.08.2017 11:13PM</time>
-
-    &middot; Tagged in
-        
-        <a href="https://www.geekyhub.in/tags/windows">windows</a>, 
-        
-        <a href="https://www.geekyhub.in/tags/softwares">softwares</a>
-        
     
-
-</span>
-</footer>
-
-    <p><p>Windows Ink workspace is great addition to Windows 10. Due to this tool, annotating has never been easier.</p>
-
-<p>However, Windows 7 is still rock solid in the marked. Apart from corporate users many personal users are on Windows 7 which include my relatives.</p>
-
-<p>When I use thier PC, only option to achieve the screen sketch is to take screenshot in paint and draw on it using pain. This method is not bad but also doesn&rsquo;t goes smoothly with my work flow. Mainly because it involes too much clicks
-</p>
-&hellip;</p>
-    <a href="https://www.geekyhub.in/post/screen_sketch_older_windows_7/" title="Epic Pen is great Windows Ink workspace alternative for Windows 7">Read more &raquo;</a>
-</article>
-
-        
-        <div class="pagination">
-<nav>
-
-	<p class="counter">Page 1 of 1</p>
-
-
-</nav>
-</div>
-
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "geekyhub" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
     </main>
-
     <aside class="author">
   <img class="profile-image" src="https://www.geekyhub.in/img/profile-image.png" alt="Vikas Kumar" />
   <p class="name">by 
@@ -168,6 +183,7 @@
 </aside>
 
 </div>
+
 <footer class="main-footer">
   <div class="container clearfix">
         <a class="icon-rss" href="https://www.geekyhub.in/post/index.xml" title="RSS"></a>

@@ -2,6 +2,16 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103636475-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-103636475-1');
+        </script>
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Linux - GeekyHub</title>
         <meta name="author">
@@ -11,7 +21,7 @@
         <meta property="og:url" content="https://www.geekyhub.in/tags/linux/" />
         <meta property="og:image" content="https://www.geekyhub.in/img/desk.jpg" />
         <meta property="og:description" content="">
-        <meta name="generator" content="Hugo 0.30" />
+        <meta name="generator" content="Hugo 0.40.1" />
         <link href="https://www.geekyhub.in/post/index.xml" rel="alternate" type="application/rss+xml" title="GeekyHub" />
         <link href="https://www.geekyhub.in/post/index.xml" rel="feed" type="application/rss+xml" title="GeekyHub" />
         <link href='//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -51,9 +61,71 @@
         
             <article class="post">
     
+<h1><a href="https://www.geekyhub.in/post/problems-with-windows-subsystem-for-linux/" title="Windows subsystem for Linux is of any use?">Windows subsystem for Linux is of any use?</a></h1>
+
+<footer class="post-info">0 minutes read · Posted on <span class="post-meta"><time datetime="21.03.2019 02:25AM">21.03.2019 02:25AM</time>
+
+    &middot; Tagged in
+        
+        <a href="https://www.geekyhub.in/tags/windows">windows</a>, 
+        
+        <a href="https://www.geekyhub.in/tags/linux">linux</a>, 
+        
+        <a href="https://www.geekyhub.in/tags/review">review</a>
+        
+    
+
+</span>
+</footer>
+
+    <p><figure>
+    
+        <img src="/images/dual.jpg" />
+    
+    
+</figure>
+
+<p>I was a long term user of Arch Linux. But recently I decided to switch to  Windows. Why? Because I needed to do some media editing and I heard about WSL which promises a more comfortable life for developers on Windows.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>So I installed a new SSD and started my Windows 10 installation process. Installation went smooth. Then I opened PowerShell to activate the feature and downloaded Ubuntu from the Windows Store.
+ Finally, I launched bash and installed <em>git</em>, <em>nodejs</em>, <em>npm</em>, <em>yarn</em>, <em>python</em>, <em>pip</em>. I was excited to try it all out on Microsoft own Visual Studio Code as it is the only editor which officially supports WSL.
+</p>
+&hellip;</p>
+    <a href="https://www.geekyhub.in/post/problems-with-windows-subsystem-for-linux/" title="Windows subsystem for Linux is of any use?">Read more &raquo;</a>
+</article>
+
+        
+            <article class="post">
+    
+<h1><a href="https://www.geekyhub.in/post/use-xclip-in-gnome-wayland/" title="How to use &#39;xclip in Gnome Wayland&#39;">How to use &#39;xclip in Gnome Wayland&#39;</a></h1>
+
+<footer class="post-info">1 minutes read · Posted on <span class="post-meta"><time datetime="03.02.2018 02:34AM">03.02.2018 02:34AM</time>
+
+    &middot; Tagged in
+        
+        <a href="https://www.geekyhub.in/tags/linux">linux</a>, 
+        
+        <a href="https://www.geekyhub.in/tags/softwares">softwares</a>
+        
+    
+
+</span>
+</footer>
+
+    <p>Since mainstream launch of Wayland with Gnome, people are facing problem in using xclip. Mainly because xclip is supposed to work with X11 Clipboard.
+But fortunately there is an option in xclip to overcome this propblem. Just use xclip -selection c instead of xclip. This option will just emulate the ctrl + shift + c action.
+For easier use you can setup the alias by adding following line in .bashrc or .&hellip;</p>
+    <a href="https://www.geekyhub.in/post/use-xclip-in-gnome-wayland/" title="How to use &#39;xclip in Gnome Wayland&#39;">Read more &raquo;</a>
+</article>
+
+        
+            <article class="post">
+    
 <h1><a href="https://www.geekyhub.in/post/you-shouldnt-begin-linux-with-kali/" title="Dear CS Freshman, Kali Linux is not what you are thinking">Dear CS Freshman, Kali Linux is not what you are thinking</a></h1>
 
-<footer class="post-info">2 minutes read · Posted on <span class="post-meta"><time datetime="01.09.2017 04:23AM">01.09.2017 04:23AM</time>
+<footer class="post-info">0 minutes read · Posted on <span class="post-meta"><time datetime="01.09.2017 04:23AM">01.09.2017 04:23AM</time>
 
     &middot; Tagged in
         
@@ -76,7 +148,7 @@
 
 <p>I bet it is your friend or someone elder who said to you that Kali Linux can hack computers. I have seen students being obsessed with this distro without knowing anything about Linux.</p>
 
-<figure >
+<figure>
     
         <img src="/images/kalimeme.jpg" />
     
@@ -116,11 +188,7 @@
   <p class="link"></p>
   <ul class="social">
     
-<li><a href="//twitter.com/vikas_kr" class="icon-twitter" target="_blank" title="Twitter"></a></li>
 
-
-
-<li><a href="//facebook.com/wittvikki" class="icon-facebook-squared" target="_blank" title="Facebook"></a></li>
 
 
 
@@ -147,7 +215,7 @@
 <footer class="main-footer">
   <div class="container clearfix">
         <a class="icon-rss" href="https://www.geekyhub.in/post/index.xml" title="RSS"></a>
-        <p>&copy; 2017 &middot; Powered by <a href="http://gohugo.io">Hugo</a>.</p>
+        <p>&copy; 2019 &middot; Powered by <a href="http://gohugo.io">Hugo</a>.</p>
   </div>
 </footer>
 
@@ -156,7 +224,6 @@
 <script>hljs.initHighlightingOnLoad();</script>
 <script>window.jQuery || document.write('<script src="https:\/\/www.geekyhub.in\/js\/vendor\/jquery-1.11.0.min.js"><\/script>')</script>
 <script src="https://www.geekyhub.in/js/plugins.js"></script>
-
 
 
 

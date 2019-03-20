@@ -6,11 +6,65 @@
     <description>Recent content on GeekyHub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Fri, 20 Oct 2017 17:51:16 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2019 02:25:59 +0530</lastBuildDate>
     
 	<atom:link href="https://www.geekyhub.in/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows subsystem for Linux is of any use?</title>
+      <link>https://www.geekyhub.in/post/problems-with-windows-subsystem-for-linux/</link>
+      <pubDate>Thu, 21 Mar 2019 02:25:59 +0530</pubDate>
+      
+      <guid>https://www.geekyhub.in/post/problems-with-windows-subsystem-for-linux/</guid>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;https://www.geekyhub.in/images/dual.jpg&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I was a long term user of Arch Linux. But recently I decided to switch to  Windows. Why? Because I needed to do some media editing and I heard about WSL which promises a more comfortable life for developers on Windows.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;So I installed a new SSD and started my Windows 10 installation process. Installation went smooth. Then I opened PowerShell to activate the feature and downloaded Ubuntu from the Windows Store.
+ Finally, I launched bash and installed &lt;em&gt;git&lt;/em&gt;, &lt;em&gt;nodejs&lt;/em&gt;, &lt;em&gt;npm&lt;/em&gt;, &lt;em&gt;yarn&lt;/em&gt;, &lt;em&gt;python&lt;/em&gt;, &lt;em&gt;pip&lt;/em&gt;. I was excited to try it all out on Microsoft own Visual Studio Code as it is the only editor which officially supports WSL.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Prevent roommates/family members from unlocking your android phone with your fingerprint while you are asleep</title>
+      <link>https://www.geekyhub.in/post/prevent-disable-fingerprint-unlock-temporarily/</link>
+      <pubDate>Wed, 13 Jun 2018 01:25:00 +0530</pubDate>
+      
+      <guid>https://www.geekyhub.in/post/prevent-disable-fingerprint-unlock-temporarily/</guid>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;https://www.geekyhub.in/images/fingerprintunlock.jpg&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Today fingerprint scanners are on almost every phone. It is very handy to have a fingerprint sensor to unlock your device. By the time you pull out a phone from your pocket to your eyes it is already unlocked. It also prevents snooping of your password or pattern from behind your shoulders or through a security camera.&lt;/p&gt;
+
+&lt;p&gt;But one place where it fails to hide your sensitive chats and photos from your sneaky roommates or a nosy family member. They can easily use your finger to unlock your phone while you are asleep or too high.&lt;/p&gt;
+
+&lt;h2 id=&#34;so-how-to-prevent-this&#34;&gt;So how to prevent this?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to use &#39;xclip in Gnome Wayland&#39;</title>
+      <link>https://www.geekyhub.in/post/use-xclip-in-gnome-wayland/</link>
+      <pubDate>Sat, 03 Feb 2018 02:34:16 +0530</pubDate>
+      
+      <guid>https://www.geekyhub.in/post/use-xclip-in-gnome-wayland/</guid>
+      <description>Since mainstream launch of Wayland with Gnome, people are facing problem in using xclip. Mainly because xclip is supposed to work with X11 Clipboard.
+But fortunately there is an option in xclip to overcome this propblem. Just use xclip -selection c instead of xclip. This option will just emulate the ctrl + shift + c action.
+For easier use you can setup the alias by adding following line in .bashrc or .</description>
+    </item>
     
     <item>
       <title>Build a Simple WhatsApp bot in Python using Selenium</title>
@@ -18,9 +72,29 @@
       <pubDate>Fri, 20 Oct 2017 17:51:16 +0530</pubDate>
       
       <guid>https://www.geekyhub.in/post/making-a-whatsapp-bot-using-python-selenium/</guid>
-      <description>Selenium is a web automation package available for all popular languages. To know more about selenium you can refer to official Selenium docs. Here, we will be making a simple WhatsApp bot using Python and Selenium which will reply the current time for every message.
-Installing Selenium So, first of all, we need to install Selenium for Python by running following command in terminal.
- pip install selenium  Selenium also requires a driver to interface with the chosen browser.</description>
+      <description>&lt;figure&gt;
+    
+        &lt;img src=&#34;https://www.geekyhub.in/images/robots-764951_640.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Selenium is a web automation package available for all popular languages. To know more about selenium you can refer to &lt;a href=&#34;http://docs.seleniumhq.org/&#34;&gt;official Selenium docs&lt;/a&gt;.
+Here, we will be making a simple WhatsApp bot using Python and Selenium which will reply the current time for every message.&lt;/p&gt;
+
+&lt;h2 id=&#34;installing-selenium&#34;&gt;Installing Selenium&lt;/h2&gt;
+
+&lt;p&gt;So, first of all, we need to install Selenium for Python by running following command in terminal.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install selenium 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Selenium also requires a driver to interface with the chosen browser. For Firefox, we need to install geckodriver. Without proper driver, you will get &lt;em&gt;WebDriverException&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Download latest geckodriver from &lt;a href=&#34;https://github.com/mozilla/geckodriver/releases&#34;&gt;Mozilla&amp;rsquo;s GitHub Repo&lt;/a&gt; and add to the path.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,9 +103,9 @@ Installing Selenium So, first of all, we need to install Selenium for Python by 
       <pubDate>Thu, 28 Sep 2017 16:35:16 +0530</pubDate>
       
       <guid>https://www.geekyhub.in/post/hidden-features-of-visual-studio-code/</guid>
-      <description>Mircosoft&amp;rsquo;s Visual Studio Code has proven to be the dark horse of code editors. Don&amp;rsquo;t confuse yourself by seeing Microsoft as it is completely free, open source and MIT licensed.
-Even being late to the party, it has attracted enough users. The reason behind this is a perfect balance between speed, features, and hackability.
-If you are new to this editor, these are some features you should be known to improve your productivity.</description>
+      <description>&lt;p&gt;Mircosoft&amp;rsquo;s &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt; has proven to be the dark horse of code editors. Don&amp;rsquo;t confuse yourself by seeing Microsoft as it is completely free, open source and MIT licensed.&lt;/p&gt;
+
+&lt;p&gt;Even being late to the party, it has attracted enough users. The reason behind this is a perfect balance between speed, features, and hackability.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -51,7 +125,7 @@ If you are new to this editor, these are some features you should be known to im
 &lt;p&gt;I bet it is your friend or someone elder who said to you that Kali Linux can hack computers. I have seen students being obsessed with this distro without knowing anything about Linux.&lt;/p&gt;
 
 
-&lt;figure &gt;
+&lt;figure&gt;
     
         &lt;img src=&#34;https://www.geekyhub.in/images/kalimeme.jpg&#34; /&gt;
     
