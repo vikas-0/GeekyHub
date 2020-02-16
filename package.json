@@ -9,11 +9,11 @@
   "author": "vikas-0 <vikas@geekyhub.in>",
   "license": "MIT",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-htmlmin": "^3.0.0",
-    "run-sequence": "^2.1.0"
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "run-sequence": "^2.2.1"
   },
   "devDependencies": {
-    "eslint": "^4.3.0"
+    "eslint": "^6.8.0"
   }
 }
