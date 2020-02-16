@@ -1,9 +1,9 @@
-const gulp = require('gulp')
+const {task, src, dest, series} = require('gulp')
 const htmlmin = require('gulp-htmlmin')
 const exec = require('child_process').exec
 const runSequnce = require('run-sequence')
 
-gulp.task('hugo-build', (cb)=>{
+task('hugo-build', (cb)=>{
     exec('hugo',(err,stdout,stderr)=>{
         console.log(stdout)
         console.log(stderr)
@@ -11,8 +11,9 @@ gulp.task('hugo-build', (cb)=>{
     })
 })
 
-gulp.task('minify-html', ()=>{
-    return gulp.src('public/**/*.html')
+
+task('minify-html', ()=>{
+    return src('public/**/*.html')
         .pipe(htmlmin({
             collapseWhitespace:true,
             minifyCSS:true,
@@ -20,9 +21,7 @@ gulp.task('minify-html', ()=>{
             removeComments: true,
             useShortDoctype: true
         }))
-        .pipe(gulp.dest('./public'))
+        .pipe(dest('./public'))
 })
 
-gulp.task('build', ['hugo-build'], (callback)=>{
-    runSequnce('minify-html', callback)
-})
+task('build',series('hugo-build', 'minify-html'))
