@@ -4,7 +4,7 @@ date: 2017-09-28T16:35:16+05:30
 draft: false
 ogimage : "images/vscodecover.png"
 description : "VSCode has established as a good text editor. Now let's check out some of it's cool features"
-tags: ["Code Editor", "Softwares"]
+tags: ["Code Editor", "Softwares", "VSCode"]
 ---
 Mircosoft's [Visual Studio Code](https://code.visualstudio.com/) has proven to be the dark horse of code editors. Don't confuse yourself by seeing Microsoft as it is completely free, open source and MIT licensed.
 
@@ -16,7 +16,7 @@ If you are new to this editor, these are some features you should be known to im
 # 1. Code Differs
 
 The files in your project look same but there are some differences. You spotted few of them just by gazing but there is still a chance of missing something. So why risk, just type the following command in your terminal and bam! VS Code will spot all the differences for you
-    
+
     $code <first-file> <second-file>
 
 {{< figure src="/images/vscodediffer.png" title="VSCode Differ" >}}
@@ -30,7 +30,7 @@ An example would be < and = . [FiraCode](https://github.com/tonsky/FiraCode) is 
 
 # 3. Type Checking in Javascript
 Typescript is typed superset of javascript. But in VSCode you can do all that in plain javascript by adding
-        
+
         //@ts-check
 
 at top of the javascript file
@@ -38,11 +38,11 @@ at top of the javascript file
 {{< figure src="/images/ts-check-in-javascript.gif" title="Demo for property and type checking" >}}
 
 # 4. The Printable shortcut Cheatsheet
-A code editor is never good without good shortcut keys. VSCode offers a printable cheatsheet which you can paste on wall for quick learning. It contains shortcuts for important features like multiple cursors, integrated terminals, file management etc. Go explore it. 
+A code editor is never good without good shortcut keys. VSCode offers a printable cheatsheet which you can paste on wall for quick learning. It contains shortcuts for important features like multiple cursors, integrated terminals, file management etc. Go explore it.
 
 Download shortcut cheatsheet for
 [Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf),
-[Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) and 
+[Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) and
 [Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf).
 
 # 5. Change Case of variables
