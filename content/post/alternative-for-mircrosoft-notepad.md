@@ -1,5 +1,5 @@
 +++
-title= "Taking a look at Modern alternative for Microsoft Notepad"
+title= "Taking a look at Modern alternatives for Microsoft Notepad"
 date= 2020-06-29T13:19:00+05:30
 tags = ["Windows", "Software", "Review", "Microsoft", "Notepad" ]
 description = "Windows Notepad alternatives with Fluent Design"
