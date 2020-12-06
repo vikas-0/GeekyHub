@@ -93,7 +93,7 @@ params:
     ShowReadingTime: true
     defaultTheme: auto
     ShowShareButtons: true
-    displayFullLangName: true
+    displayFullLangName: false
     # images: ""
     # assets:
     #   favicon: '<path / external url>'
