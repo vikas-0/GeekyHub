@@ -1,6 +1,6 @@
-baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
+baseURL: "https://Www.GeekyHub.iN"
 title: GeekyHub
-paginate: 8
+paginate: 5
 theme: hugo-PaperMod
 enableInlineShortcodes: true
 enableRobotsTXT: true
