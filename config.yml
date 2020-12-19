@@ -94,6 +94,7 @@ params:
     defaultTheme: auto
     ShowShareButtons: true
     displayFullLangName: false
+    comments: true
     # images: ""
     # assets:
     #   favicon: '<path / external url>'
