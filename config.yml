@@ -87,8 +87,8 @@ outputs:
 
 params:
     env: production
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
+    description: "Geekyhub"
+    author: Vikas Kumar
     # author: ["Me", "You"] # multiple authors
     ShowReadingTime: true
     defaultTheme: auto
