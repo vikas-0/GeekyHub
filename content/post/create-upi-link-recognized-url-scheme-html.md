@@ -1,11 +1,10 @@
-+++
-title= "How to create UPI Payment link in HTML"
-date= 2020-11-06T08:25:00+05:30
-tags = ["HTML", "Developemt"]
-description = "Windows Notepad alternatives with Fluent Design"
-draft=false
-
-+++
+---
+title: "How to create UPI Payment link in HTML"
+date: 2020-11-06T08:25:00+05:30
+tags : ["HTML", "Developemt"]
+description : "Creating UPI link in HTML"
+draft: false
+---
 
 **TLDR** - The URL scheme is _upi://pay?pn=\<Name>&pa=\<UPI ID>&cu=\<Currency Code>_
 
