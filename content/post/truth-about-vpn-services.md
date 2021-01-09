@@ -2,7 +2,7 @@
 title: "Public VPN is not what's it advertised as"
 date: 2020-12-19T20:39:48+05:30
 tags: ['Opinion']
-description: There are now a lot of myths and misinformation about it is floating in the market."
+description: There are now a lot of myths and misinformation about it is floating in the market.
 author: "Vikas Kumar"
 ShowToc: true
 TocOpen: true
