@@ -2,9 +2,12 @@
 title= "Dear CS Freshman, Kali Linux is not what you are thinking"
 date= 2017-09-01T04:23:00+05:30
 tags = ["Linux","Kali"]
-ogimage = "images/kalimeme.jpg"
 description = "Kali Linux is Not a Magical wand to make you a hacker, neither a stable linux to begin with"
 draft=false
+[cover]
+image = "/images/kalimeme.jpg"
+alt = "Kali Linux"
+hidden = true
 +++
 
 This post is intended for college Freshmans those who have little or no experience with Linux. If you are an experienced Linux user you may skip the post safely.

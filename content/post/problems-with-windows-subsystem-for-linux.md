@@ -4,11 +4,10 @@ date= 2019-03-21T02:25:59+05:30
 tags = ["Windows", "Linux", "Review" ]
 description = "Problems With Windows Subsystem for Linux"
 draft=false
-ogimage = "images/dual.jpg"
+[cover]
+image = "images/dual.jpg"
+alt = "Linux Subsystem"
 +++
-
-{{< figure src="/images/dual.jpg">}}
-
 I was a long term user of Arch Linux. But recently I decided to switch to  Windows. Why? Because I needed to do some media editing and I heard about WSL which promises a more comfortable life for developers on Windows.
 
 ## Installation 

@@ -2,9 +2,12 @@
 title= "Build a Simple WhatsApp bot in Python using Selenium"
 date= 2017-10-20T17:51:16+05:30
 draft= false
-ogimage = "images/robots-764951_640.png"
 description = "DIY Article for building a simple WhatsApp bot using Python and Selenium"
 tags= ["DIY","Python"]
+[cover]
+image = "/images/robots-764951_640.png"
+alt = "Whatsapp Bot"
+hidden = true
 +++
 
 {{< figure src="/images/robots-764951_640.png">}}

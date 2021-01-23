@@ -2,9 +2,12 @@
 title= "Prevent roommates/family members from unlocking your android phone with your fingerprint while you are asleep"
 date= 2018-06-13T01:25:00+05:30
 draft= false
-ogimage = "images/fingerprintunlock.jpg"
 description = "How to disable biometric unlocking of your Android device temporarily"
 tags= ["Tips","Apps", "Android"]
+[cover]
+image = "/images/fingerprintunlock.jpg"
+alt = "Android Unlock"
+hidden = true
 +++
 
 {{< figure src="/images/fingerprintunlock.jpg">}}

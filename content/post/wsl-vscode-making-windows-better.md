@@ -2,12 +2,12 @@
 title= "WSL and Visual Studio Code is making Windows better"
 date= 2020-02-17T01:48:59+05:30
 tags = ["Windows", "Linux", "Review", "VSCode", "Code Editor" ]
-description = "WSL and Visual Studio Code making Windows better for Developers"
+description = "There are some new updates in WSL which is finally making Windows worthy of Developers"
 draft=false
-ogimage = "images/silver-and-black-dell-laptop.jpg"
+[cover]
+image = "/images/silver-and-black-dell-laptop.jpg"
+alt = "Laptop"
 +++
-
-{{< figure src="/images/silver-and-black-dell-laptop.jpg">}}
 
 Many developers would agree that Windows is not known to be developer-friendly until you aren’t developing for the Windows ecosystem. Linux distros, on the other hand, are very good for development especially adding the fact that most of your build is going to run on Linux based servers.
 <!--more-->

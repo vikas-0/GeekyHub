@@ -4,7 +4,10 @@ date= 2020-06-29T13:19:00+05:30
 tags = ["Windows", "Software", "Review", "Microsoft", "Notepad" ]
 description = "Windows Notepad alternatives with Fluent Design"
 draft=false
-ogimage = "/images/notepads_quickpad.png"
+[cover]
+image = "/images/notepads_quickpad.png"
+alt = "Notepad"
+hidden = true
 +++
 
 Notepad has been an excellent lightweight tool since the beginning of Windows. But lately, it isn't changing much with the new fluent design language of Windows 10. However, there are some excellent third-party alternatives to Notepad. Since the version 2004 (May 2020 Update) of Windows 10, now we can uninstall Notepad easily. So you can get rid of Notepad altogether if you are satisfied with following 3rd party alternatives. :-
