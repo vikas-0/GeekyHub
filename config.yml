@@ -90,6 +90,8 @@ params:
     description: "Geekyhub"
     author: Vikas Kumar
     # author: ["Me", "You"] # multiple authors
+    ShowFullTextinRSS: true
+    ShowCodeCopyButtons: true
     ShowReadingTime: true
     defaultTheme: auto
     ShowShareButtons: true
@@ -120,14 +122,16 @@ params:
             - **GeekyHub** is a place to share my thoughts, opinion and Experiences on Technologies.
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/iVikasKr"
+        # - name: twitter
+        #   url: "https://twitter.com/iVikasKr"
         - name: stackoverflow
           url: "https://stackoverflow.com/users/4716643/vikas-kumar"
         - name: linkedin
           url: "https://www.linkedin.com/in/vikas-kr/"
         - name: github
           url: "https://github.com/vikas-0"
+        - name: telegram
+          url: "https://t.me/vikaskmr"
         - name: rss
           url: "index.xml"
 

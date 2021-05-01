@@ -9,6 +9,7 @@ TocOpen: false
 draft: false
 cover:
     image: "onesignal-react.png"
+    relative: true
     alt: "OneSignal ReactJs"
 ---
 
