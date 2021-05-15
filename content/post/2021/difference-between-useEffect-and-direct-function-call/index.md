@@ -13,6 +13,7 @@ cover:
     alt: "useEffect vs direct Function Call"
     hidden: true
 disqus_identifier: Difference-between-useEffect-and-calling-function-directly-inside-a-component
+disqus_url: https://www.geekyhub.in/post/2021/difference-between-useeffect-and-direct-function-call/
 ---
 
 In React, the useEffect hook is pretty straightforward. But its simplicity sometimes makes me forget its actual function. I remembered useEffect simply as something which takes a callback and a dependency array as arguments, and it will execute the callback whenever the dependency array is changed. And in case of no dependency array, it will run the callback each time the component renders.
