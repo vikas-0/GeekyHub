@@ -100,4 +100,4 @@ Result, is something like this.
 {{< figure src="circle-animation.gif" title="" width="300px">}}
 
 This is a relatively simple example, but I hope I successfully demonstrated the possibilities.
-Here the [link](https://gist.github.com/vikas-0/24c785c2a178a790b3b7352b400cc400) of complete code of the result if you are interested.
+Here is the [link](https://gist.github.com/vikas-0/24c785c2a178a790b3b7352b400cc400) of complete code of the result if you are interested.
