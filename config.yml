@@ -97,9 +97,20 @@ params:
     ShowShareButtons: true
     displayFullLangName: false
     comments: true
+    ShowRssButtonInSectionTermList: true
+    ShowPostNavLinks: true
+    # disableSpecial1stPost: true
     # images: ""
     # assets:
     #   favicon: '<path / external url>'
+
+    schema:
+      publisherType: "Person"
+
+    editPost:
+      URL: "https://github.com/vikas-0/GeekyHub/tree/master/content"
+      Text: "Suggest Changes" # edit text
+      appendFilePath: true #
 
     profileMode:
         enabled: false
@@ -132,6 +143,10 @@ params:
           url: "https://github.com/vikas-0"
         - name: telegram
           url: "https://t.me/vikaskmr"
+        - name: instagram
+          url: "https://www.instagram.com/vikas_krr/"
+        - name: twitter
+          url: "https://twitter.com/iVikasKr"
         - name: rss
           url: "index.xml"
 
