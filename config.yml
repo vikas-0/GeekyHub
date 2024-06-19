@@ -5,8 +5,6 @@ theme: hugo-PaperMod
 enableInlineShortcodes: true
 enableRobotsTXT: true
 
-googleAnalytics: UA-103636475-1
-
 minify:
     disableXML: true
     minifyOutput: true
@@ -178,6 +176,8 @@ services:
         disableInlineCSS: true
     twitter:
         disableInlineCSS: true
+    googleAnalytics:
+        id: "G-7N85P7G3FG"
 
 # Enable comments powered by Disqus by entering your disqus shortname
 disqusShortname: "geekyhub"
