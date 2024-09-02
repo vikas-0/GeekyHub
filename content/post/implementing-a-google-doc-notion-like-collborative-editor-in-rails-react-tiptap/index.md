@@ -13,7 +13,7 @@ cover:
     alt: "Three proffessionals collaboration on single sheet of paper"
 ---
 
-In this post, we'll walk through setting up Tiptap's collaboration feature with Rails Action Cable and ReactJs. Tiptap is a powerful headless editor built on ProseMirror, and when combined with Y.js, it allows for real-time collaborative editing. We'll use Mantine component libaray, but it's not mandatory for this setup.
+In this post, we'll walk through setting up Tiptap's collaboration feature with Rails Action Cable and ReactJs. Tiptap is a powerful headless editor built on ProseMirror, and when combined with Y.js, it allows for real-time collaborative editing. We'll use Mantine component library, but it's not mandatory for this setup.
 
 If you prefer to dive directly into the code, check out the example on [Github](https://github.com/vikas-0/collab_demo)
 
