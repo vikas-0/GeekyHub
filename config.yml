@@ -1,6 +1,6 @@
 baseURL: "https://www.geekyhub.in"
 title: GeekyHub
-paginate: 5
+pagination.pagerSize: 5
 theme: hugo-PaperMod
 enableInlineShortcodes: true
 enableRobotsTXT: true
