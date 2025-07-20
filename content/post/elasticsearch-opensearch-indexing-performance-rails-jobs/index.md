@@ -213,10 +213,7 @@ A key part of my implementation was creating a fiber-aware HTTP client for OpenS
 class AsyncOpenSearchClient
   def index(index:, id: nil, body:)
     # Return an Async task that performs the request asynchronously
-    Async do |task|
-      # Simulate network latency (non-blocking)
-      Async.sleep(3)
-      
+    Async do |task|  
       # Make the request asynchronously
       response = Async::HTTP::Internet.post(url, headers, json_body)
       
