@@ -110,7 +110,7 @@ I created two nearly identical jobs:
 - `JobTest1Job` - Using SolidQueue with synchronous HTTP calls
 - `JobTest2Job` - Using AsyncJob with asynchronous HTTP calls
 
-Both jobs perform the same task: indexing documents in OpenSearch. To simulate real-world conditions with network latency, I added a 3-second artificial delay to each OpenSearch request.
+Both jobs perform the same task: indexing documents in OpenSearch. To simulate real-world conditions with network latency, I added a 3-second artificial delay to each OpenSearch request, results were drastically different. But the results here are without any simulated delay.
 
 The full code and detailed results are available in my [GitHub repository](https://github.com/vikas-0/jobtest).
 
