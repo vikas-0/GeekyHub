@@ -12,9 +12,6 @@ cover:
     relative: true
     alt: "Run local project on HTTPS locally"
 ---
-
-# How to run any local project on HTTPS without any hassle
-
 Modern browsers expect HTTPS. Cookies with `Secure`, OAuth callbacks, Service Workers, HTTP/2, and many APIs either require or work better with HTTPS.
 
 I created `local-https`, a simple tool to run any local project on HTTPS with a custom local domain.
