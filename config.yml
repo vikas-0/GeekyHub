@@ -90,7 +90,7 @@ params:
     author: Vikas Kumar
     label:
       text: GeekyHub
-      icon: favicon-32x32.png
+      icon: geekyhub-favicon.ico
       iconHeight: 32
     assets:
       favicon: geekyhub-favicon.ico
