@@ -1,5 +1,5 @@
 ---
-title: "Difference between 'useEffect' and calling function directly inside a component."
+title: "Difference between 'useEffect' and calling a function directly inside a component"
 date: 2021-05-09T18:02:00+05:30
 tags: ['React', 'Javascript']
 description: Finding out the difference between 'useEffect' without dependency array and executing function directly.
@@ -14,12 +14,12 @@ cover:
     hidden: true
 ---
 
-In React, the useEffect hook is pretty straightforward. But its simplicity sometimes makes me forget its actual function. I remembered useEffect simply as something which takes a callback and a dependency array as arguments, and it will execute the callback whenever the dependency array is changed. And in case of no dependency array, it will run the callback each time the component renders.
+In React, the `useEffect` hook is pretty straightforward. But its simplicity sometimes makes me forget its actual function. I thought of `useEffect` simply as something that takes a callback and a dependency array as arguments and executes the callback whenever the dependency array changes. Without a dependency array, it runs the callback each time the component renders.
 
-But then what will be the difference between the following two cases.
+But then, what is the difference between the following two cases?
 {{< figure src="useeffect.svg" alt="useEffect vs function call" >}}
 
-To find out, I have created a small React application with a couple of props and states of type number and four buttons to increment those numbers.
+To find out, I created a small React application with two numeric props, two numeric state values, and four buttons to increment those numbers.
 
 > ````App.js````
 ````js {linenos=table}
@@ -75,13 +75,13 @@ function TestComponent({prop1, prop2}) {
   export default TestComponent;
 ````
 
-We can see in following that both `console.log` statement runs whenever we update `state` or `prop`.
+We can see below that both `console.log` statements run whenever we update a state value or prop.
 
 {{< video src="withoutdelay" loop="true">}}
 
-But I think we are missing something because both seems to be same. So let's slow down the rendering. 
+But I think we are missing something because both seem to behave the same way. So let's slow down the rendering.
 
-To slow down the rendering I added a very long loopin inside `return`.
+To slow down the rendering, I added a very long loop inside `return`.
 
 ````js {linenos=table}
 import { useEffect, useState } from 'react';
@@ -99,11 +99,11 @@ function TestComponent({prop1, prop2}) {
         <p>Prop 1: {prop1}</p>
 ````
 
-After the delay we can clearly see that expression inside useEffect is always excuted after expression in the fucntion.
+After adding the delay, we can clearly see that the expression inside `useEffect` is always executed after the expression in the function.
 
 {{< video src="withdelay" loop="true">}}
 
-It is because the definition of `useEffect` stated at the beginning of this post is incomplete. useEffect not only executes the callback on each render (depending upon the dependency array) but also ensures that rendering has been completed. That's why useEffect's `console.log` is delayed. 
+This is because the definition of `useEffect` stated at the beginning of this post is incomplete. `useEffect` not only executes the callback on each render (depending on the dependency array), but also ensures that rendering has been completed. That's why `useEffect`'s `console.log` is delayed.
 
 
-This should not be a problem if you are doing some small calculation or, as in this example, logging. But if you are using `ref` to access the element, you must ensure that render has happened; else, you may get the wrong reference. 
+This should not be a problem if you are doing a small calculation or, as in this example, logging. But if you are using a `ref` to access an element, you must ensure that the render has completed; otherwise, you may get the wrong reference.

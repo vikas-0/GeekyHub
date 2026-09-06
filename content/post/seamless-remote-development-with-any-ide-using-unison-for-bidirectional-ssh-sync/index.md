@@ -2,7 +2,7 @@
 title: "Seamless Remote Development with Any IDE Using Unison for Bidirectional SSH Sync"
 date: 2024-06-15T11:51:00+05:30
 tags: ['Remote Development', 'Tutorials', 'Code Editor', 'Tips']
-description: SSH Development with Any Editor, Unison helps maintain a local copy and enables bidirectional sync, allowing you to use any tool, even Notepad, to edit your code efficiently.
+description: For SSH development with any editor, Unison maintains a local copy and enables bidirectional sync, allowing you to use any tool, even Notepad, to edit your code efficiently.
 author: "Vikas Kumar"
 ShowToc: false
 TocOpen: false
@@ -10,7 +10,7 @@ draft: false
 cover:
     image: "ssh-development-with-zed-and-other-editors.png"
     relative: true
-    alt: "Using any IDE on Remote developement"
+    alt: "Using any IDE for remote development"
 ---
 
 
@@ -39,9 +39,9 @@ This leaves Unison as the ideal choice for me.
 
 # Installing Unison
 
-You need to install Unison on both the host and remote machine. If you don't have sudo access on the remote machine, don't worry; you can download the binary and keep it anywhere.
+You need to install Unison on both the host and the remote machine. If you don't have sudo access on the remote machine, don't worry; you can download the binary and keep it anywhere.
 
-- **Installing Unison on Mac local machine:**
+- **Installing Unison on a local Mac:**
     - `brew install unison`
     - `brew install autozimu/homebrew-formulas/unison-fsmonitor`
 
@@ -51,13 +51,13 @@ You need to install Unison on both the host and remote machine. If you don't hav
 
 - **Run a test connection:**
     - Example command: `unison -testServer ssh://user@remotehostname/path/to/folder /path/to/folder`
-    - If you get an error that Unison is not found on the remote server, specify the exact path to Unison using `-servercmd`. For example: `unison -testServer ssh://user@remotehostname/path/to/folder /path/to/folder -servercmd /home/path/to/unison/bin/unison`.
+    - If you get an error saying that Unison was not found on the remote server, specify the exact path to Unison using `-servercmd`. For example: `unison -testServer ssh://user@remotehostname/path/to/folder /path/to/folder -servercmd /home/path/to/unison/bin/unison`.
 
 - **Final command for syncing:**
     - Once the connection test is successful, start syncing with the final command:
       ```
       unison ssh://user@remotehostname/path/to/folder /path/to/folder -servercmd /home/path/to/unison/bin/unison -ignore "BelowPath node_modules" -ignore "BelowPath .git" -force newer -repeat watch
       ```
-    - This command will sync all files and continue monitoring for further changes in the background while you develop. If you want to know the meaning of flags used here like `ignore`, `force` etc, you can check [Unison user mannual](https://github.com/bcpierce00/unison/wiki).
+    - This command will sync all files and continue monitoring for further changes in the background while you develop. If you want to know what flags such as `ignore` and `force` mean, you can check the [Unison user manual](https://github.com/bcpierce00/unison/wiki).
 
 You can use any code editor to modify the local copy, and Unison will automatically sync the changes.

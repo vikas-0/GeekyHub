@@ -13,9 +13,9 @@ cover:
     alt: "Animation in React Native"
 ---
 
-Here, by animating SVG, I mean to change the property of SVG elements dynamically, which will look live-like.
+Here, by animating an SVG, I mean changing the properties of SVG elements dynamically to make them appear alive.
 
-In react native, we can generate/render an SVG using the [react-native-svg](https://github.com/react-native-svg/react-native-svg) library. A complex SVG comprises many more minor elements that could be animated individually. But here, for example, we will take only one piece, a circle.
+In React Native, we can generate or render an SVG using the [react-native-svg](https://github.com/react-native-svg/react-native-svg) library. A complex SVG comprises many smaller elements that can be animated individually. For this example, however, we will use only one element: a circle.
 
 The following code will draw a circle with a radius of 50 units.
 
@@ -24,18 +24,18 @@ The following code will draw a circle with a radius of 50 units.
   <Circle cx="55" cy="55" r="50" stroke="black" strokeWidth={5} />
 </Svg>
 ```
-Suppose we want to animate it to become large and small.
+Suppose we want to animate it so that it grows and shrinks.
 To achieve this, I will use [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/). To learn more about it, you can check out its documentation.
 
 Logically, I am trying to increase or decrease the radius.
 
-Since the radius value is a prop, I will use `useAnimatedProps`. But, first of all, convert Circle to an animated component.
+Since the radius value is a prop, I will use `useAnimatedProps`. First, convert `Circle` to an animated component.
 
 ```react
 const AnimatedCircle = Animated.createAnimatedComponent(Circle);
 ```
 
-Now, I can re-write component as
+Now I can rewrite the component as follows:
 
 ```react
 <Svg width={200} height={200}>
@@ -43,7 +43,7 @@ Now, I can re-write component as
 </Svg>
 ```
 
-Next step is to store the stroke width and radius. width can be stored in a simple constat, but for the radius we will use [`useSharedValue`](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/shared-values), so that it can be used by woklet to animate.
+The next step is to store the stroke width and radius. The width can be stored in a simple constant, but for the radius we will use [`useSharedValue`](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/shared-values) so that a worklet can animate it.
 
 ```react
 export default ()=>{
@@ -63,7 +63,7 @@ export default ()=>{
   )
 }
 ```
-Here, I need some event or action to trigger the radius change. I'll use a button press. (withSpring is default provided animation which is not necessary to use but this looks cool 🤞)
+Here, I need an event or action to trigger the radius change. I'll use a button press. (`withSpring` is a provided animation that isn't required, but it looks cool 🤞.)
 
 ```react
 <Button mode="contained" onPress={() => {
@@ -76,7 +76,7 @@ Here, I need some event or action to trigger the radius change. I'll use a butto
   Press
 </Button>
 ```
-You'll notice that even after pressing the button, nothing happens. It is because change of sharedValue doesn't trigger re-render of the react component. finally animated props comes into the picture. Instead of passing prop directly, we will pass it using animated prop.
+You'll notice that even after pressing the button, nothing happens. This is because changing a shared value doesn't trigger a re-render of the React component. Finally, animated props come into the picture. Instead of passing the props directly, we will pass them using `animatedProps`.
 
 ```react
 const animatedProps = useAnimatedProps(() => ({
@@ -96,8 +96,8 @@ const animatedProps = useAnimatedProps(() => ({
 </Svg>
 ```
 
-Result, is something like this.
+The result looks something like this:
 {{< figure src="circle-animation.gif" title="" width="300px">}}
 
 This is a relatively simple example, but I hope I successfully demonstrated the possibilities.
-Here is the [link](https://gist.github.com/vikas-0/24c785c2a178a790b3b7352b400cc400) of complete code of the result if you are interested.
+If you are interested, here is the [complete code](https://gist.github.com/vikas-0/24c785c2a178a790b3b7352b400cc400) for the result.

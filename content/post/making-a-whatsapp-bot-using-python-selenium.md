@@ -1,5 +1,5 @@
 +++
-title= "Build a Simple WhatsApp bot in Python using Selenium"
+title= "Build a Simple WhatsApp Bot in Python Using Selenium"
 date= 2017-10-20T17:51:16+05:30
 draft= false
 description = "DIY Article for building a simple WhatsApp bot using Python and Selenium"
@@ -12,25 +12,25 @@ hidden = true
 
 {{< figure src="/images/robots-764951_640.png">}}
 
-Selenium is a web automation package available for all popular languages. To know more about selenium you can refer to [official Selenium docs](http://docs.seleniumhq.org/).
-Here, we will be making a simple WhatsApp bot using Python and Selenium which will reply the current time for every message. 
+Selenium is a web automation package available for all popular languages. To learn more about Selenium, you can refer to the [official Selenium documentation](http://docs.seleniumhq.org/).
+Here, we will make a simple WhatsApp bot using Python and Selenium that replies to every message with the current time.
 
 ## Installing Selenium
 
-So, first of all, we need to install Selenium for Python by running following command in terminal.
+First, we need to install Selenium for Python by running the following command in a terminal.
 
 ````bash
 pip install selenium 
 ````
 
-Selenium also requires a driver to interface with the chosen browser. For Firefox, we need to install geckodriver. Without proper driver, you will get _WebDriverException_.
+Selenium also requires a driver to interface with the chosen browser. For Firefox, we need to install geckodriver. Without the proper driver, you will get a _WebDriverException_.
 
-Download latest geckodriver from [Mozilla's GitHub Repo](https://github.com/mozilla/geckodriver/releases) and add to the path.
+Download the latest geckodriver from [Mozilla's GitHub repository](https://github.com/mozilla/geckodriver/releases) and add it to your path.
 
 <!--more-->
 ## Start Coding
 Now we are ready to proceed.
-Make a new Python file i.e. _bot.py_ and make some necessary imports.
+Create a new Python file, _bot.py_, and add the necessary imports.
 
 ````python
 from datetime import datetime
@@ -38,7 +38,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 ````
-Now we will create and initialize Firefox WebDriver and make a get request to open Whatsapp Web URL.
+Now we will create and initialize a Firefox WebDriver and make a GET request to open the WhatsApp Web URL.
 
 ````python
 driver = webdriver.Firefox()
@@ -47,11 +47,11 @@ print('Please Scan the QR Code and press enter')
 input()
 ````
 
-The _print_ and _input_ functions are there just to give us time to scan the QR code to connect our phone's WhatsApp. Once we are connected we can hit enter to continue further execution of code.
+The _print_ and _input_ functions are there just to give us time to scan the QR code and connect our phone's WhatsApp account. Once we are connected, we can press Enter to continue executing the code.
 
-Once the WhatsApp Web interface is open, we need to look for unread messages. Thankfully, all unread messages in left pane are individual HTML element with CSS class 'chat unread'.
+Once the WhatsApp Web interface is open, we need to look for unread messages. Thankfully, each unread message in the left pane is an individual HTML element with the CSS classes `chat` and `unread`.
 
-WebDriver have a function to find elements by CSS selector which will return the first element with the given argument. We will make use of this function.
+WebDriver has a function that finds elements by CSS selector and returns the first element matching the given argument. We will make use of this function.
 
 ````python
 content = driver.find_element_by_css_selector('.chat.unread')
@@ -60,11 +60,11 @@ input_form = driver.find_element_by_css_selector('.pluggable-input-placeholder')
 input_form.send_keys(str(datetime.now()),Keys.RETURN)
 ````
 
-Above code snippet is very simple. We are selecting first element with class _chat_ and _unread_ and clicking it. Then we need to find message box which is an HTML element with class _pluggable-input-placeholder_. _send_keys_ function will send the keyboard event to the element. So we send the current time and RETURN key(Enter Key) to send the message.
+The code snippet above is very simple. We select the first element with the classes _chat_ and _unread_ and click it. Then we find the message box, which is an HTML element with the class _pluggable-input-placeholder_. The _send_keys_ function sends keyboard events to the element, so we send the current time and the Return key (Enter) to send the message.
 
-As I have already mentioned that function _find_element_by_css_selector_ will return only first element for given argument, So we need to put the whole snippet in a loop. Also, when there is no such element for the argument it will throw _NoSuchElementException_, so enclosing with _try_ _except_ is also necessary.
+As I have already mentioned, the function _find_element_by_css_selector_ returns only the first element for a given argument, so we need to put the whole snippet in a loop. Also, when there is no matching element, it throws _NoSuchElementException_, so enclosing the code in a _try_/_except_ block is necessary.
 
-The final code will be
+The final code is:
 ````python
 from datetime import datetime
 from selenium import webdriver
@@ -84,4 +84,4 @@ while True:
     except NoSuchElementException:
         pass
 ````
-This code is just a proof of concept, you can obviously improve it for better performance.
+This code is just a proof of concept; you can improve it for better performance.

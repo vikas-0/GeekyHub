@@ -1,8 +1,8 @@
 ---
-title: "Public VPN is not what's it advertised as"
+title: "A Public VPN Is Not What It Is Advertised to Be"
 date: 2020-12-19T20:39:48+05:30
 tags: ['Opinion']
-description: There are now a lot of myths and misinformation about it is floating in the market.
+description: Many myths and pieces of misinformation about public VPNs are now circulating in the market.
 author: "Vikas Kumar"
 ShowToc: true
 TocOpen: true
@@ -12,24 +12,24 @@ cover:
     alt: "VPN"
 ---
 
-In the last few years, there has been a flow of public VPN services in the market. But there are now a lot of myths and misinformation about it is floating in the market. 
+In the last few years, there has been an influx of public VPN services into the market. But many myths and pieces of misinformation about them are now circulating.
 
-Sadly, this misinformation is being propagated by the company itself and knowing unknowingly by tech YouTubers who frequently gets sponsored by the Public Providers. 
+Sadly, this misinformation is being propagated by the companies themselves and, knowingly or unknowingly, by tech YouTubers who are frequently sponsored by public VPN providers.
 
-Here I am listing a few of the things these services can offer and some which these can't
+Here, I am listing a few things these services can and cannot offer.
 
 ## Privacy
-Often a VPN is touted as a one-stop for all your digital privacy goals. But in my opinion, when you think of privacy, you should also ask privacy from whom. From your ISP? Yes. From your National Security agencies? Maybe not.
+A VPN is often touted as a one-stop solution for all your digital privacy goals. But in my opinion, when you think of privacy, you should also ask: privacy from whom? From your ISP? Yes. From your national security agencies? Maybe not.
 
-Privacy is more of a practice than a product. Suppose you open your personal social and email accounts over a VPN network and the same on your local network. In that case, it can be easily tracked that both IPs belong to the same person. Also, your VPN provider will always know your real IP address. So in case some could hack, buy, or force them to hand over the data, it is out with all of your browsing histories.
+Privacy is more of a practice than a product. Suppose you open your personal social media and email accounts over a VPN and then access the same accounts on your local network. In that case, it can easily be determined that both IPs belong to the same person. Also, your VPN provider will always know your real IP address. If someone hacks or buys the provider, or forces it to hand over the data, your browsing history could be exposed.
 
-Often VPN providers claim to have a no-log policy, but you just have to believe their words until something happens.
+VPN providers often claim to have a no-log policy, but you have to take them at their word until something happens.
 
 ## Internet Speed
-This claim is somewhat valid but not wholly. In a sporadic case, your local ISP has very bad routing, which causes many bad hops. In that case, a VPN can help improve your internet browsing experience. But, In the vast majority of cases, you are expected to get a hit on internet speed in lieu of some degree of privacy.
+This claim is somewhat valid, but not entirely. In rare cases, your local ISP may have very bad routing that causes many bad hops. A VPN can then help improve your browsing experience. But in the vast majority of cases, you should expect slower internet speeds in exchange for some degree of privacy.
 
-## Wide variety of content access
-This is the most common use case of a public VPN service. You want to watch a youtube video or Netflix show that isn't available in your location. You can easily circumvent it. Also, it is helpful for those who people live out of the country for business purposes. But, when they leave, they lose access to many local online services that they may want to use while abroad, such as Hotstar, which broadcasts most Indian sports at affordable rates. But, you can't access it while being abroad usually.
+## Access to a Wider Variety of Content
+This is the most common use case for a public VPN service. If you want to watch a YouTube video or Netflix show that isn't available in your location, you can easily circumvent the restriction. A VPN is also helpful for people who live abroad for business. When they leave their home country, they lose access to many local online services they may want to use, such as Hotstar, which broadcasts most Indian sports at affordable rates but usually cannot be accessed from abroad.
 
 ## Final Thoughts
 It's good to have one, but you should know what you have.

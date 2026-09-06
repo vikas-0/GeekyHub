@@ -16,7 +16,7 @@ Modern browsers expect HTTPS. Cookies with `Secure`, OAuth callbacks, Service Wo
 
 I created `local-https`, a simple tool to run any local project on HTTPS with a custom local domain.
 
-- No browsers hacks
+- No browser hacks
 - No changing your app’s code
 - Works on macOS and Linux
 
@@ -41,6 +41,7 @@ You get a local URL like `https://myapp.test` that points to your app on `localh
 ## Quick start
 
 Requirements:
+
 - macOS or Linux
 - Ruby 3.0+
 - `sudo` access for binding to ports 443/80 and editing `/etc/hosts`
@@ -76,13 +77,14 @@ open https://myapp.test
 ```
 
 Tips:
+
 - Run in foreground for logs: `sudo local-https start --no-daemon`
 - Disable HTTP→HTTPS redirect: `sudo local-https start --no-redirect-http`
 
 ---
 
-## Works with any tech stack
-As `local-https` simply terminates TLS and proxies to your local port. It doesn't require any stack specific configuration.
+## Works with Any Tech Stack
+Because `local-https` simply terminates TLS and proxies to your local port, it doesn't require any stack-specific configuration.
 
 - Frontend frameworks (Next.js, React, Vue, Vite, Angular)
 - Backend APIs (Rails, Django, Flask, Express, Spring)
@@ -146,7 +148,7 @@ Notes:
   - Yes. Point the mapping port to the host port where Docker publishes your service.
 
 - Is this safe?
-  - Certificates and config live in your user home. The proxy only listens locally (by default bind `0.0.0.0`, changeable in code). For public exposure you’d use a proper reverse proxy.
+  - Certificates and config live in your home directory. The proxy only listens locally (it binds to `0.0.0.0` by default, but this is changeable in the code). For public exposure, you should use a proper reverse proxy.
 
 <!--
 SEO title: How to run any local project on HTTPS without any hassle

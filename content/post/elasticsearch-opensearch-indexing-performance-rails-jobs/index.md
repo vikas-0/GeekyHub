@@ -24,7 +24,7 @@ We tried all the usual solutions:
 - Optimized database connections (still not enough)
 - Tweaked job priorities and batching strategies (marginal improvements at best)
 
-Yet we still hit hard limits with database connections, memory consumption, and infrastructure costs. The fundamental issue wasn't our implementation,it was the thread-based job processing paradigm itself, which simply wasn't optimized for our I/O-heavy workload.
+Yet we still hit hard limits with database connections, memory consumption, and infrastructure costs. The fundamental issue wasn't our implementation; it was the thread-based job-processing paradigm itself, which simply wasn't optimized for our I/O-heavy workload.
 
 ## Why AsyncJob for I/O-Bound Operations?
 
@@ -110,7 +110,7 @@ I created two nearly identical jobs:
 - `JobTest1Job` - Using SolidQueue with synchronous HTTP calls
 - `JobTest2Job` - Using AsyncJob with asynchronous HTTP calls
 
-Both jobs perform the same task: indexing documents in OpenSearch. To simulate real-world conditions with network latency, I added a 3-second artificial delay to each OpenSearch request, results were drastically different. But the results here are without any simulated delay.
+Both jobs perform the same task: indexing documents in OpenSearch. To simulate real-world conditions with network latency, I added a three-second artificial delay to each OpenSearch request, and the results were drastically different. However, the results shown here do not include any simulated delay.
 
 The full code and detailed results are available in my [GitHub repository](https://github.com/vikas-0/jobtest).
 
@@ -180,7 +180,7 @@ CPU Usage:
 Memory Usage: AsyncJob uses -30.51% less memory than SolidQueue
 CPU Usage: AsyncJob uses -92.11% less CPU time than SolidQueue
 ```
-Note: For solid queue, I have used 1 worker with 3 threads, which is a default configuration for solid queue.
+Note: For SolidQueue, I used one worker with three threads, which is the default configuration.
 
 ## Analyzing the Results
 

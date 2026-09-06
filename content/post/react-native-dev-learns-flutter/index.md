@@ -1,8 +1,8 @@
 ---
-title: "Journey of building a game using the Flutter"
+title: "My Journey Building a Game with Flutter"
 date: 2022-02-19T09:17:00+05:30
 tags: ['Flutter']
-description: Learning Experience of flutter
+description: My experience learning Flutter.
 author: "Vikas Kumar"
 ShowToc: false
 TocOpen: false
@@ -14,18 +14,18 @@ cover:
     hidden: false
 ---
 
-For the last few weeks, I have been working on a React Native project for work. So this was my first experience writing "real" mobile apps. Before that, I only wrapped PWA's as APK and called myself a mobile developer 😎.
+For the last few weeks, I have been working on a React Native project for work. This was my first experience writing "real" mobile apps. Before that, I only wrapped PWAs as APKs and called myself a mobile developer 😎.
 
-React-Native came naturally to me after climbing some learning curves as a React Developer. So, now I wanted to check out the buzz around Flutter.
+React Native came naturally to me after I overcame a few learning curves as a React developer. Now I wanted to see what the buzz around Flutter was about.
 
-So last weekend was a fine sunny day which is quite pleasing in the late winter season. It might not be winter from many people's standard. I opened the Flutter documentation getting started page. The installation file was quite big compared to react-native and it made my expectations high.
+Last weekend was a fine, sunny day, which is quite pleasant in late winter. It might not be winter by many people's standards. I opened the getting-started page in the Flutter documentation. The installation file was quite large compared with React Native, which raised my expectations.
 
-At this point, I knew nothing about dart and Flutter, how it works and how to write code. But the Flutter had an excellent [write-up](https://docs.flutter.dev/get-started/flutter-for/react-native-devs) comparing React-Native to Dart and Flutter. It helped me directly dive into building things without learning anything. I got pumped up to create something; I thought of a real simple application/game that is just sorting a list of cities so that traversing through all cities in order will be optimal. It's not a fair game from the graphics standard, 😥 but good enough for me.
+At this point, I knew nothing about Dart or Flutter: how they worked or how to write the code. But Flutter had an excellent [write-up](https://docs.flutter.dev/get-started/flutter-for/react-native-devs) comparing React Native with Dart and Flutter. It helped me dive directly into building things without learning everything first. I got excited to create something and thought of a really simple app or game: sorting a list of cities so that traveling through all of them in order would be optimal. It isn't much of a game by graphical standards 😥, but it was good enough for me.
 
 
 
-The app uses a list of cities downloaded from [simplemaps.com](https://simplemaps.com/data/in-cities) and used a geometry formula to calculate the distance. After a day of playing out, I was able to finish it with the help of a lot of google, stack overflow, and 3rd party packages.
+The app uses a list of cities downloaded from [simplemaps.com](https://simplemaps.com/data/in-cities) and a geometric formula to calculate the distances. After a day of experimenting, I was able to finish it with a lot of help from Google, Stack Overflow, and third-party packages.
 
-It almost feels like magic that I still don't know dart language correctly, but my app is running. Flutter dev tools are excellent compared to React-Native, which helped me identify and fix issues more quickly.
+It almost feels like magic that I still don't know the Dart language properly, yet my app is running. Flutter's development tools are excellent compared with React Native's and helped me identify and fix issues more quickly.
 
-I published my app just for fun ☺️ on the [PlayStore](https://play.google.com/store/apps/details?id=com.distoptim.geekyhub), and if you are interested, you can also check out the [code](https://github.com/vikas-0/Distoptim).
+I published my app just for fun ☺️ on the [Play Store](https://play.google.com/store/apps/details?id=com.distoptim.geekyhub). If you are interested, you can also check out the [code](https://github.com/vikas-0/Distoptim).

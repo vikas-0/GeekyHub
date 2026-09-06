@@ -2,7 +2,7 @@
 title: "How to Use Tiptap's Collaboration Feature with Rails Action Cable"
 date: 2024-06-18T20:55:00+05:30
 tags: ['Rails', 'Tutorials', 'React', 'DIY', 'Development']
-description: Create a collaborative text editor like Notion using Tiptap for rich text, ReactJS for frontend, and Rails with Action Cable for real-time updates. Enable simultaneous editing and instant synchronization across users for a seamless collaborative experience.
+description: Create a collaborative text editor like Notion using Tiptap for rich text, ReactJS for the frontend, and Rails with Action Cable for real-time updates. Enable simultaneous editing and instant synchronization across users for a seamless collaborative experience.
 author: "Vikas Kumar"
 ShowToc: false
 TocOpen: false
@@ -10,12 +10,12 @@ draft: false
 cover:
     image: "collaboration.jpg"
     relative: true
-    alt: "Three proffessionals collaboration on single sheet of paper"
+    alt: "Three professionals collaborating on a single sheet of paper"
 ---
 
-In this post, we'll walk through setting up Tiptap's collaboration feature with Rails Action Cable and ReactJs. Tiptap is a powerful headless editor built on ProseMirror, and when combined with Y.js, it allows for real-time collaborative editing. We'll use Mantine component library, but it's not mandatory for this setup.
+In this post, we'll walk through setting up Tiptap's collaboration feature with Rails Action Cable and ReactJS. Tiptap is a powerful headless editor built on ProseMirror, and when combined with Y.js, it allows for real-time collaborative editing. We'll use the Mantine component library, but it isn't mandatory for this setup.
 
-If you prefer to dive directly into the code, check out the example on [Github](https://github.com/vikas-0/collab_demo)
+If you prefer to dive directly into the code, check out the example on [GitHub](https://github.com/vikas-0/collab_demo).
 
 {{< youtube id=HXpudWU5FxQ loop=true >}}
 
@@ -26,11 +26,11 @@ Ensure you have the following installed:
 - Ruby on Rails
 - Redis
 - Node.js and Yarn
-- Your preferred mehtod of React Setup with Rails 
+- Your preferred method of setting up React with Rails
 
 ### Step 1: Setting Up Mantine
 
-First, we'll set up Mantine for styling. Follow the [Mantine guide for Vite](https://mantine.dev/guides/vite/) to install the necessary packages: (Same method worked for me using esbuild in my setup. You can do it you own way or choose not to use Mantine)
+First, we'll set up Mantine for styling. Follow the [Mantine guide for Vite](https://mantine.dev/guides/vite/) to install the necessary packages. The same method worked for me with esbuild, but you can do it your own way or choose not to use Mantine.
 
 ```bash
 yarn add @mantine/core @mantine/hooks @mantine/tiptap @tabler/icons-react @tiptap/react @tiptap/extension-link @tiptap/starter-kit @tiptap/extension-placeholder @tiptap/extension-collaboration-cursor @tiptap/extension-collaboration yjs y-prosemirror
@@ -45,11 +45,11 @@ yarn add --dev postcss postcss-preset-mantine postcss-simple-vars
 bundle add redis y-rb_actioncable y-rb
 ```
 
-Here we are installing Y.js adapter for Ruby and Action Cable.
+Here, we are installing the Y.js adapters for Ruby and Action Cable.
 
 ### Step 3: Configure Tiptap with Collaboration
 
-In the Tiptap setup, configure the StarterKit with history: false as the Collaboration extension comes with its own history management. Additionally, we’ll add a random color generator for collaboration cursors.
+In the Tiptap setup, configure StarterKit with `history: false`, as the Collaboration extension comes with its own history management. Additionally, we’ll add a random color generator for collaboration cursors.
 
 ```javascript
 function getRandomColor() {
@@ -85,7 +85,7 @@ const editor = useEditor({
     });
 ```
 
-Code to connect with websocket provided by ActionCable. Don't worry about the channel creation now, we will create it later. Assuming channel name will be `SyncChannel` we will add following code. (Here id is hardcoded, as this is just a demo. we won't be using proper auth in backend as well to keep things simple)
+Next, add the code that connects to the WebSocket provided by Action Cable. Don't worry about creating the channel yet; we will create it later. Assuming the channel name will be `SyncChannel`, add the following code. Here, the ID is hard-coded because this is just a demo. We won't use proper authentication on the backend either, in order to keep things simple.
 
 ```javascript
 // ... other imports
@@ -104,14 +104,14 @@ const provider = new WebsocketProvider(
     }
 );
 
-// ... other codes
+// ... other code
 ```
 
-You can see full frontend code in [App.jsx](https://github.com/vikas-0/collab_demo/blob/main/app/javascript/App.jsx). This contains everything in a single file which is not great but good enough for this case.
+You can see the full frontend code in [App.jsx](https://github.com/vikas-0/collab_demo/blob/main/app/javascript/App.jsx). It contains everything in a single file, which isn't ideal but is good enough for this example.
 
 ### Step 4: Set Up Rails Action Cable
 
-Create a new channel name `SyncChannel` at `app/channels/sync_channel.rb`.
+Create a new channel named `SyncChannel` at `app/channels/sync_channel.rb`.
 
 ```ruby
 # frozen_string_literal: true
@@ -150,7 +150,7 @@ class SyncChannel < ApplicationCable::Channel
 end
 ```
 
-This has Redis initialized as REDIS, replace it with your Redis variable name. We also created a Session model for `sync_for` mehtod. You can check documentation for sync_for [here](https://y-crdt.github.io/yrb-actioncable/Y/Actioncable/Sync.html#sync_for-instance_method).
+This example assumes that Redis is initialized as `REDIS`; replace it with the name of your Redis variable. We also created a `Session` model for the `sync_for` method. You can check the documentation for `sync_for` [here](https://y-crdt.github.io/yrb-actioncable/Y/Actioncable/Sync.html#sync_for-instance_method).
 
 ```ruby
 # frozen_string_literal: true
@@ -168,7 +168,7 @@ class Session
 end
 ```
 
-And finally `ApplicationCable::Connection` will be as follows
+Finally, `ApplicationCable::Connection` will look like this:
 
 ```ruby
 module ApplicationCable
@@ -182,11 +182,11 @@ module ApplicationCable
 end
 ```
 
-### Step 6: Add Styles for Collaboration Cursor (Option)
+### Step 5: Add Styles for the Collaboration Cursor (Optional)
 
-Everything should be working by now. In this step the cursor was looking odd, so some [CSS](https://github.com/vikas-0/collab_demo/blob/main/app/javascript/App.css) can be add to make it look good.
+Everything should be working by now. The cursor looked odd, so you can add some [CSS](https://github.com/vikas-0/collab_demo/blob/main/app/javascript/App.css) to make it look good.
 
-Finally you can run your rails server and it should be good to go once we add all missing piecies specially authorisation.
+Finally, you can run your Rails server. It should be good to go once you add all the missing pieces, especially authorization.
 
 ### Conclusion
-By following these steps, you should have a real-time collaborative editor up and running using Tiptap, Y.js, and Rails Action Cable. While we used Mantine for styling in this demo, you can customize the styling as per your requirements. This setup provides a robust foundation for building collaborative applications with rich text editing capabilities.
+By following these steps, you should have a real-time collaborative editor up and running using Tiptap, Y.js, and Rails Action Cable. While we used Mantine for styling in this demo, you can customize the styling to suit your requirements. This setup provides a robust foundation for building collaborative applications with rich-text editing capabilities.

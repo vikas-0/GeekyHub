@@ -1,5 +1,5 @@
 +++
-title= "Epic Pen is great Windows Ink workspace alternative for Windows 7"
+title= "Epic Pen Is a Great Windows Ink Workspace Alternative for Windows 7"
 date= 2017-08-02T23:13:25+05:30
 tags = ["Windows", "Softwares"]
 description = "How to do screen sketch on Windows 7 and 8 such as Windows Ink workspace in Windows 10"
@@ -10,21 +10,20 @@ alt = "Screen Sketch"
 hidden = true
 +++
 
-Windows Ink workspace is great addition to Windows 10. Due to this tool, annotating has never been easier. 
+Windows Ink Workspace is a great addition to Windows 10. Thanks to this tool, annotating has never been easier.
 
-However, Windows 7 is still rock solid in the marked. Apart from corporate users many personal users are on Windows 7 which include my relatives.
+However, Windows 7 still has a rock-solid position in the market. Besides corporate users, many personal users, including my relatives, still use Windows 7.
 
-When I use thier PC, only option to achieve the screen sketch is to take screenshot in paint and draw on it using pain. This method is not bad but also doesn't goes smoothly with my work flow. Mainly because it involes too much clicks 
+When I use their PCs, the only way to create a screen sketch is to take a screenshot in Paint and draw on it using Paint. This method is not bad, but it doesn't fit smoothly into my workflow, mainly because it involves too many clicks.
 <!--more-->
-## 3rd party app to rescue
-[Epic Pen](http://epic-pen.com/) is an application which puts a toolbar on screen with tools like pen, highlighter and eraser.
+## A Third-Party App to the Rescue
+[Epic Pen](http://epic-pen.com/) is an application that puts a toolbar on the screen with tools such as a pen, highlighter, and eraser.
 
 
 {{< figure src="/images/windows_ink_windows_7_xp.png" title="Epic Pen in action" >}}
 
-only basic difference in workflow is that in Epic Pen, you first draw on screen then take screenshot while in Widows Ink workspace, you first take screenshot then draw on it.
+The only basic difference in the workflow is that in Epic Pen, you first draw on the screen and then take a screenshot, while in Windows Ink Workspace, you first take a screenshot and then draw on it.
 
-Epic Pen is free for personal use and can be downloaded from offical website.
-
+Epic Pen is free for personal use and can be downloaded from the official website.
 
 

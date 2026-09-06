@@ -5,24 +5,24 @@ tags = ["Blogging"]
 draft=true
 +++
 
-I had my last paper of this semester's exams just a day before yesterday. If I can speak my mind, this semester has been very boring. Most of the subjects were a just compilation of the subjects I have read in previous semesters which made me lukewarm about studies. I am just hopeful that I'll get pass marks in all subject. 
+I had the last paper of this semester's exams just the day before yesterday. To speak my mind, this semester has been very boring. Most subjects were just compilations of material I had studied in previous semesters, which made me lukewarm about my studies. I am just hopeful that I'll get passing marks in every subject.
 
-In course of examination, I stumbled upon my lost forgotten blog on [Blogger] (http://geekyhub.blogspot.in)  . It didn't take much time to realize that the blog is very embarrassing, done like a 10 to 5 job. A personal touch cannot be found on that blog. So, I decided to do a fresh start after examinations and this new blog is my another effort.
+During the examinations, I stumbled upon my long-forgotten blog on [Blogger](http://geekyhub.blogspot.in). It didn't take long to realize that the blog was very embarrassing and written like a nine-to-five job. It had no personal touch. So I decided to make a fresh start after the examinations, and this new blog is my latest effort.
 
 <!--more-->
 
-## What should I focus
+## What Should I Focus On?
 
-I will try to maintain personal content mostly related to my technical experience as the linchpin of this blog, not just a "how to" guide. 
-As my writing skill is not too good, I'll try to improve it and this should be reflected in my future posts.
+I will try to make personal content, mostly related to my technical experience, the linchpin of this blog rather than writing only "how-to" guides.
+As my writing skills are not very good, I'll try to improve them, and this should be reflected in my future posts.
 
 ## Some Technical Changes
 
-Unlike my previous blog, this blog is create using [Hugo](https://gohugo.io/) which is a static website engine built using Go-Lang. Static websites are new cool for blogging and it is very fast and cheap to host as it is independent of any database, runtime or interpreter in deployment.  This is also one of the reasons to do the fresh start.
+Unlike my previous blog, this blog was created using [Hugo](https://gohugo.io/), a static website engine built with Go. Static websites are the new cool thing for blogging. They are very fast and cheap to host because they don't depend on a database, runtime, or interpreter during deployment. This is also one of the reasons I wanted a fresh start.
 For hosting, I have chosen [Netlify](https://www.netlify.com/). It serves me better than alternatives like [surge](http://surge.sh/) and [Github Pages](https://pages.github.com/).
 The source code of this blog is available on [Github](https://github.com/vikas-0/GeekyHub). You are free to fork, modify or contribute to my blog.
 
-I am optimistic about this new blog and I except regular comments from you to keep me on track.
+I am optimistic about this new blog, and I expect regular comments from you to keep me on track.
 
 **Image Credit**
 

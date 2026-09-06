@@ -1,16 +1,16 @@
 ---
-title: "How to use 'xclip in Gnome Wayland'"
+title: "How to Use xclip in GNOME Wayland"
 date: 2018-02-03T02:34:16+05:30
 draft: false
 description : "TLDR, just use xclip -selection c"
 tags: ["linux", "Softwares"]
 ---
-Since mainstream launch of Wayland with Gnome, people are facing problem in using xclip. Mainly because xclip is supposed to work with X11 Clipboard.
+Since the mainstream launch of Wayland with GNOME, people have faced problems using xclip, mainly because xclip is designed to work with the X11 clipboard.
 
-But fortunately there is an option in xclip to overcome this propblem. 
-Just use *xclip -selection c* instead of *xclip*. This option will just emulate the *ctrl + shift + c* action.
+Fortunately, xclip has an option to overcome this problem.
+Just use *xclip -selection c* instead of *xclip*. This option emulates the *Ctrl + Shift + C* action.
 
-For easier use you can setup the alias by adding following line in *.bashrc* or *.zshrx* file.
+For easier use, you can set up an alias by adding the following line to your *.bashrc* or *.zshrc* file.
 
 ````bash
 alias xclip='xclip -selection c'
