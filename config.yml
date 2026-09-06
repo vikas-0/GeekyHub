@@ -88,6 +88,17 @@ params:
     env: production
     description: "Geekyhub"
     author: Vikas Kumar
+    label:
+      text: GeekyHub
+      icon: favicon-32x32.png
+      iconHeight: 32
+    assets:
+      favicon: geekyhub-favicon.ico
+      favicon16x16: favicon-16x16.png
+      favicon32x32: favicon-32x32.png
+      apple_touch_icon: geekyhub-apple-touch-icon.png
+      theme_color: "#0b6cff"
+      msapplication_TileColor: "#0b6cff"
     # author: ["Me", "You"] # multiple authors
     ShowFullTextinRSS: true
     ShowCodeCopyButtons: true
